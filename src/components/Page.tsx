@@ -12,7 +12,9 @@ const Page = ({ children }) => (
     </Head>
 
     <Header />
-    <div>{children}</div>
+    <div className="bg-gray-600 min-h-screen">
+      <div>{children}</div>
+    </div>
     <Footer />
   </div>
 );
