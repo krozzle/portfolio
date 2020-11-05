@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import { initializeApollo } from '../lib/apollo';
 import { useViewerQuery, ViewerDocument } from '../lib/viewer.graphql';
+import Intro from '../src/components/Intro';
 import Page from '../src/components/Page';
 
 const Index = () => {
@@ -8,13 +8,7 @@ const Index = () => {
 
   return (
     <Page>
-      <div className="">
-        You're signed in as {viewer.name} and you're {viewer.status} go to the{' '}
-        <Link href="/about">
-          <a>about</a>
-        </Link>{' '}
-        page.
-      </div>
+      <Intro />
     </Page>
   );
 };

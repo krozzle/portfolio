@@ -3,6 +3,9 @@
 #tailwind
 tailwind.output.css
 
+#images
+kriz-cv.jpg
+
 # dependencies
 /node_modules
 /.pnp

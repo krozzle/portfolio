@@ -12,8 +12,8 @@ const Page = ({ children }) => (
     </Head>
 
     <Header />
-    <div className="bg-gray-600 min-h-screen">
-      <div>{children}</div>
+    <div className="bg-gray-100">
+      <div className="py-8">{children}</div>
     </div>
     <Footer />
   </div>
