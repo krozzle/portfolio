@@ -8,7 +8,7 @@ const Index = () => {
 
   return (
     <Page>
-      <div>
+      <div className="flex justify-around">
         You're signed in as {viewer.name} and you're {viewer.status} go to the{' '}
         <Link href="/about">
           <a>about</a>
