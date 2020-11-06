@@ -13,7 +13,7 @@ const Footer = () => (
     </div>
     <div className="flex text-md font-hairline">
       <div className="px-2">Ⓒ christopher wattaul</div>
-      <a href="/">
+      <a href="/legalNotice">
         <span className="px-2">legal notice</span>
       </a>
     </div>

@@ -11,8 +11,8 @@ const Page = ({ children }) => (
       <link rel="stylesheet" href="/src/styles/tailwind.css" />
     </Head>
 
-    <Header />
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 min-h-screen">
+      <Header />
       <div className="py-8">{children}</div>
     </div>
     <Footer />
