@@ -1,5 +1,5 @@
 const Footer = () => (
-  <div className="flex justify-around align-middle py-4 bg-gray-500 bottom-0">
+  <div className="flex opacity-50 hover:opacity-100 justify-around align-middle py-4 bg-gray-500 bottom-0">
     <div className="flex">
       <a href="https://github.com/krozzle">
         <img className="pr-2" src="/github.svg" />

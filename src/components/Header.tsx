@@ -1,5 +1,5 @@
 const Header = () => (
-  <div className="flex justify-around py-4 bg-blue-900 bg-opacity-50 top-0 sticky">
+  <div className="flex justify-around py-4 opacity-50 hover:opacity-100 bg-blue-900 bg-opacity-50 top-0 sticky">
     <div className="flex flex-1 justify-around text-gray-800">
       <div>chris wattaul</div>
     </div>
