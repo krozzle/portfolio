@@ -16,7 +16,7 @@ const LegalNotice = () => (
           <div>
             Email:{' '}
             <a
-              className="hover:shadow-md"
+              className="hover:bg-black"
               href="mailto: christopher.wattaul@gmail.com"
             >
               christopher.wattaul@gmail.com
@@ -27,15 +27,25 @@ const LegalNotice = () => (
           <div>UID: ATU75849628</div>
           <div>Handelsgericht Wien</div>
           <div>
-            <a className="hover:shadow-inner" href="https://ris.bka.gv.at/">
+            <a className=" hover:bg-black" href="https://ris.bka.gv.at/">
               Gewerbeordnung
             </a>
           </div>
           <div>
             Member of{' '}
-            <a className="hover:shadow-inner" href="https://wko.at/">
+            <a className=" hover:bg-black" href="https://wko.at/">
               WKO
             </a>
+          </div>
+          <br />
+          <div>
+            Complaint can be submitted to the email above or directly to the
+            online dispute resolution platform of the
+            <br />
+            <a className=" hover:bg-black" href="http://ec.europa.eu/odr">
+              European Comission
+            </a>
+            .
           </div>
         </div>
       </div>
