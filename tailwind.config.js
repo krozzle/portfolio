@@ -6,6 +6,9 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      outline: {
+        vdvPink: '0.5px solid #fa0041',
+      },
       minHeight: {
         0: '0%',
         '1/4': '25%',
@@ -18,6 +21,6 @@ module.exports = {
       },
     },
   },
-  variants: {},
-  plugins: [],
+  variants: { scrollSnapType: ['responsive'] },
+  plugins: [require('tailwindcss-scroll-snap')],
 };

@@ -42,6 +42,5 @@ yarn-error.log*
 
 # graphql-let
 __generated__
-.graphql-let.yml
 *.graphql.d.ts
 *.graphqls.d.ts
