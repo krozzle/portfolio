@@ -4,7 +4,7 @@
 tailwind.output.css
 
 #images
-kriz-cv.jpg
+# kriz-cv.jpg
 
 # dependencies
 /node_modules
