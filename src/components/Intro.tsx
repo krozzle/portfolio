@@ -1,13 +1,13 @@
 const Intro = () => (
-  <div className="flex flex-col lg:flex-row justify-around py-24 bg-gray-200">
-    <div className="w-1/2">
+  <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-around py-24 bg-gray-200">
+    <div className="lg:w-1/2">
       <img
         src="/kriz-cv.jpg"
         alt="picture of krozzle posing for a new profile picture"
-        className="lg:w-2/3 ml-auto px-12 py-12 shadow-sm rounded-tl-full rounded-br-full"
+        className="max-w-sm md:max-w-md ml-auto px-12 py-12 shadow-sm rounded-tl-full rounded-br-full"
       />
     </div>
-    <div className="w-1/2 mr-auto px-12 flex flex-col justify-center items-start">
+    <div className="flex flex-col justify-center items-center lg:w-1/2 lg:mr-auto p-12">
       <h1 className="text-4xl text-gray-800 font-bold tracking-wide">
         Chris Wattaul
       </h1>
