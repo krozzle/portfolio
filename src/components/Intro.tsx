@@ -1,5 +1,8 @@
 const Intro = () => (
-  <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen lg:justify-around py-24 bg-gray-200">
+  <div
+    id="intro"
+    className="flex flex-col lg:flex-row items-center justify-center min-h-screen lg:justify-around py-24 bg-gray-200"
+  >
     <div className="lg:w-1/2">
       <img
         src="/kriz-cv.jpg"
