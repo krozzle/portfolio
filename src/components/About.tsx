@@ -6,16 +6,39 @@ const About = () => (
         of mixed descent, there's no other place <br /> I want to call home.
       </p>
       <p>
-        Following a 10+ year career as a nurse
+        Following up a decade worth of nursing
         <br className="hidden lg:inline" />
-        (cardiology & critical care), I kicked{' '}
+        (cardiology | critical care), I kicked{' '}
         <br className="hidden lg:inline" /> things off with a coding bootcamp{' '}
         <a
           href="upleveled.io"
           className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
         >
-          @UpLeveled.
+          @UpLeveled
+        </a>
+        <br />
+        with a strong focus on <br />
+        <a
+          href="https://reactjs.org"
+          className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
+        >
+          React
+        </a>
+        ,{' '}
+        <a
+          href="https://nextjs.org"
+          className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
+        >
+          Next.js
         </a>{' '}
+        and{' '}
+        <a
+          href="https://graphql.org"
+          className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
+        >
+          GraphQL.
+        </a>
+        <br />
       </p>
       <p>
         I enjoy sharing my effort, at the same time{' '}
@@ -33,7 +56,7 @@ const About = () => (
     </div>
     <div className="lg:hidden flex flex-col justify-center items-center py-4 text-4xl font-hairline leading-relaxed tracking-wide">
       <p>Vienna 🇦🇹 🇵🇭</p>
-      <p>10+ years 👩‍⚕️</p>
+      <p>12+ years 👩‍⚕️</p>
       <p>
         <a
           href="https://upleveled.io"

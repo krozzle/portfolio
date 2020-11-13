@@ -5,7 +5,7 @@ const CanDoForYou = () => (
         what i can <br /> do for you
       </p>
     </div>
-    <div className="lg:w-2/3 px-12 lg:px-24 leading-relaxed list-none text-center lg:text-left text-3xl text-gray-900">
+    <div className="lg:w-2/3 px-8 lg:px-24 leading-relaxed list-none text-center lg:text-left text-3xl text-gray-900">
       <p className="font-medium tracking-wider">
         I create software solutions <br />
         to make life

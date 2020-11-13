@@ -1,5 +1,5 @@
 const Intro = () => (
-  <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-around py-24 bg-gray-200 transition-all ease-in-out">
+  <div className="flex flex-col lg:flex-row items-center justify-center min-h-screen lg:justify-around py-24 bg-gray-200">
     <div className="lg:w-1/2">
       <img
         src="/kriz-cv.jpg"
@@ -7,7 +7,7 @@ const Intro = () => (
         className="max-w-sm md:max-w-md ml-auto px-12 py-12 shadow-sm rounded-tl-full rounded-br-full"
       />
     </div>
-    <div className="flex flex-col justify-center items-center lg:items-baseline p-12 lg:w-1/2">
+    <div className="flex flex-col justify-center items-center lg:w-1/2 lg:items-baseline p-8">
       <h1 className="text-4xl text-gray-800 font-bold tracking-wide">
         chris wattaul
       </h1>
@@ -21,7 +21,7 @@ const Intro = () => (
       <p className="text-3xl font-semibold leading-loose text-gray-800">
         ideas into
       </p>
-      <p className="px-4 text-4xl max-w-sm leading-loose rounded bg-teal-300 opacity-75 text-vdvPink font-serif font-bold tracking-wider lowercase">
+      <p className="px-4 text-4xl max-w-sm leading-loose rounded bg-teal-300 text-vdvPink shadow-xl font-serif font-bold tracking-wider lowercase">
         Reality
       </p>
     </div>
