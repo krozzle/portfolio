@@ -9,7 +9,7 @@ const contactPage = () => (
             <h1 className="text-4xl text-center text-gray-700 font-semibold uppercase rounded-md border-b-2 border-vdvPink">
               get in touch
             </h1>
-            <p className="px-12 pt-8 pb-1 text-lg font-light tracking-wide text-gray-900 leading-relaxed">
+            <p className="px-8 pt-8 pb-1 text-lg font-light tracking-wide text-gray-900 leading-relaxed">
               {' '}
               If you have an offer, opportunity, or introduction that might make
               my life more interesting, email me at{' '}
@@ -21,7 +21,7 @@ const contactPage = () => (
               </a>
               .
             </p>
-            <p className="px-12 pb-8 pt-1 text-lg font-light tracking-wide text-gray-900 leading-relaxed">
+            <p className="px-8 pb-8 pt-1 text-lg font-light tracking-wide text-gray-900 leading-relaxed">
               For the reasons stated above, i'll only respond to those proposals
               that are a good match for my schedule and interests.
             </p>
