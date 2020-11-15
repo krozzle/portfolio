@@ -4,10 +4,8 @@ import { ViewerDocument } from '../lib/viewer.graphql';
 import About from '../src/components/About';
 import CanDoForYou from '../src/components/CanDoForYou';
 import Intro from '../src/components/Intro';
+import MyWork from '../src/components/MyWork';
 import Page from '../src/components/Page';
-import randomTextColor from '../src/components/utils/randomTextColor';
-
-console.log(randomTextColor());
 
 const Index = () => {
   // const { viewer } = useViewerQuery().data!;
@@ -17,6 +15,7 @@ const Index = () => {
       <Intro />
       <CanDoForYou />
       <About />
+      <MyWork />
     </Page>
   );
 };

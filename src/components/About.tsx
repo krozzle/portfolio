@@ -1,25 +1,23 @@
 const About = () => (
   <div
     id="about"
-    className="flex flex-col-reverse lg:flex-row justify-center items-center min-h-screen text-gray-500 bg-gray-700"
+    className="flex flex-col-reverse lg:flex-row justify-center items-center min-h-screen  bg-gray-700"
   >
-    <div className="hidden lg:flex lg:flex-col w-full lg:w-2/3 xl:py-32 px-8 xl:px-16 xl:mx-auto xl:max-w-6xl text-3xl text-center lg:text-right tracking-wider lg:tracking-normal leading-18">
+    <div className="hidden lg:flex lg:flex-col w-full lg:w-2/3 xl:py-32 px-8 xl:px-16 xl:mx-auto xl:max-w-6xl text-3xl text-center text-gray-500 lg:text-right tracking-wider lg:tracking-normal leading-18">
       <p>
         Born and raised in Vienna, Austria, <br />
         of mixed descent, there's no other place <br /> I want to call home.
       </p>
       <p>
-        Following up a decade worth of nursing
-        <br className="hidden lg:inline" />
-        (cardiology | critical care), I kicked{' '}
-        <br className="hidden lg:inline" /> things off with a coding bootcamp{' '}
+        Following up a decade worth of nursing,
+        <br className="hidden lg:inline" />I kicked things off with a coding
+        bootcamp <br />
         <a
           href="upleveled.io"
           className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
         >
           @UpLeveled
-        </a>
-        <br />
+        </a>{' '}
         with a strong focus on <br />
         <a
           href="https://reactjs.org"
@@ -88,7 +86,7 @@ const About = () => (
         🕹
       </p>
     </div>
-    <div className="flex justify-center items-center p-1 lg:items-end lg:w-1/3 text-6xl font-semibold border-b-2 border-vdvPink tracking-wide">
+    <div className="flex justify-center items-center p-1 lg:items-end lg:w-1/3 text-6xl font-semibold text-gray-300 border-b-2 border-vdvPink tracking-wide">
       <p>About me</p>
     </div>
   </div>

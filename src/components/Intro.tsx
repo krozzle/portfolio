@@ -24,9 +24,7 @@ const Intro = () => (
       <p className="text-3xl font-semibold leading-loose text-gray-800">
         ideas into
       </p>
-      <p className="px-4 text-4xl max-w-sm leading-loose rounded bg-teal-300 text-vdvPink shadow-xl font-serif font-bold tracking-wider lowercase">
-        Reality
-      </p>
+      {/* !!!missing!!! */}
     </div>
   </div>
 );

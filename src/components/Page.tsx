@@ -13,7 +13,7 @@ const Page = ({ children }) => (
 
     <div className="bg-gray-100 min-h-screen">
       <Header />
-      <div className="snap snap-y snap-mandatory">{children}</div>
+      <div>{children}</div>
     </div>
     <Footer />
   </div>
