@@ -19,7 +19,10 @@ const Footer = () => {
       </div>
       <div className="flex text-md font-hairline">
         <div className="px-2">Ⓒ {fullYear}</div>
-        <a href="/legalNotice">
+        <a
+          href="/legalNotice"
+          className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
+        >
           <span className="px-2">legal notice</span>
         </a>
       </div>
