@@ -17,14 +17,14 @@ const Intro = () => (
       <h1 className="text-4xl text-indigo-500 font-extrabold tracking-wide">
         Frontend Developer
       </h1>
-      <p className="text-3xl font-semibold leading-loose text-gray-800">
+      <p className="text-3xl font-semibold leading-relaxed text-gray-800">
         let's turn {''}
-        <span className="italic text-4xl font-">YOUR</span>
+        <span className="italic text-4xl font-bold">YOUR</span>
       </p>
-      <p className="text-3xl font-semibold leading-loose text-gray-800">
-        ideas into
+      <p className="text-3xl font-semibold text-gray-800">ideas into</p>
+      <p className="px-2 rounded-md italic leading-relaxed text-4xl font-bold text-gray-900 bg-vdvPink">
+        being
       </p>
-      {/* !!!missing!!! */}
     </div>
   </div>
 );

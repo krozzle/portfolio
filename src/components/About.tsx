@@ -37,8 +37,9 @@ const About = () => (
           href="https://graphql.org"
           className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
         >
-          GraphQL.
+          GraphQL
         </a>
+        .
         <br />
       </p>
       <p>
