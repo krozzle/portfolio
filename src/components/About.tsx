@@ -78,6 +78,22 @@ const About = () => (
       </p>
       <p>
         <a
+          href="https://nextjs.org"
+          className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
+        >
+          Next.js
+        </a>
+        ,{' '}
+        <a
+          href="https://graphql.org"
+          className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
+        >
+          GraphQL
+        </a>{' '}
+        ⚛
+      </p>
+      <p>
+        <a
           href="https://virtualdojovienna.com"
           className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
         >

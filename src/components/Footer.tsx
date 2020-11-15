@@ -2,7 +2,10 @@ const Footer = () => {
   const fullYear = new Date().getFullYear();
 
   return (
-    <div className="flex opacity-25 hover:opacity-100 hover:bg-opacity-50 transition duration-500 justify-around align-middle py-4 bg-gray-500 text-gray-900 bottom-0">
+    <div
+      className="flex bg-opacity-50
+    lg:opacity-25 hover:opacity-100 hover:bg-opacity-25 transition lg:hover:ease-in-out duration-500 justify-around align-middle py-4 bg-gray-500 lg:hover:bg-opacity-50 text-md text-gray-900 bottom-0 lg:sticky"
+    >
       <div className="flex">
         <a href="https://github.com/krozzle">
           <img className="pr-2" src="/github.svg" />

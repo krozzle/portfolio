@@ -3,10 +3,10 @@ import { initializeApollo } from '../lib/apollo';
 import { ViewerDocument } from '../lib/viewer.graphql';
 import About from '../src/components/About';
 import CanDoForYou from '../src/components/CanDoForYou';
+import GetInTouch from '../src/components/GetInTouch';
 import Intro from '../src/components/Intro';
 import MyWork from '../src/components/MyWork';
 import Page from '../src/components/Page';
-import ThankYou from '../src/components/ThankYou';
 
 const Index = () => {
   // const { viewer } = useViewerQuery().data!;
@@ -17,7 +17,7 @@ const Index = () => {
       <CanDoForYou />
       <About />
       <MyWork />
-      <ThankYou />
+      <GetInTouch />
     </Page>
   );
 };

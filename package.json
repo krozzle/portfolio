@@ -1,7 +1,7 @@
 {
   "name": "krozzler.com",
   "version": "0.1.0",
-  "author": "",
+  "author": "Christopher Wattaul",
   "license": "MIT",
   "scripts": {
     "build:tailwind": "postcss src/styles/tailwind.css -o src/styles/tailwind.output.css",
