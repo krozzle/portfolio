@@ -44,8 +44,8 @@ const About = () => (
       </p>
       <p>
         I enjoy sharing my effort, at the same time{' '}
-        <br className="hidden lg:inline" /> I enjoy spending time with family
-        and friends. <br className="hidden lg:inline" />
+        <br className="hidden lg:inline" /> spending time with family and
+        friends. <br className="hidden lg:inline" />
         You can also find me hanging out <br />
         <a
           href="virtualdojovienna.com"
