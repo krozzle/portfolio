@@ -55,7 +55,7 @@ const About = () => (
         .
       </p>
     </div>
-    <div className="lg:hidden flex flex-col justify-center items-center py-4 text-4xl font-hairline leading-relaxed tracking-wide">
+    <div className="lg:hidden flex flex-col justify-center items-center py-4 text-4xl text-gray-500 font-hairline leading-relaxed tracking-wide">
       <p>Vienna 🇦🇹 🇵🇭</p>
       <p>12+ years 👩‍⚕️</p>
       <p>
