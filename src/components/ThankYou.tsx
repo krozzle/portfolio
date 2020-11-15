@@ -10,7 +10,7 @@ const ThankYou = () => (
         className="lg:rounded-tl-full"
       />
     </div>
-    <div className=" lg:px-12 lg:w-1/2 lg:flex flex-col justify-center items-center rounded-3xl">
+    <div className="flex px-12 py-16 lg:w-1/2 justify-center items-center rounded-3xl">
       <a href="/contact" className="rounded-3xl">
         <div className="px-6 py-1 bg-gray-800 bg-opacity-25 rounded-3xl text-3xl text-vdvPink hover:text-opacity-75 border-b border-vdvPink tracking-wide uppercase shadow-lg hover:shadow-2xl">
           get in touch

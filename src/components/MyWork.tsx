@@ -7,7 +7,7 @@ const MyWork = () => (
       <img
         src="/typewriter.jpg"
         alt="picture of a typewriter with a few keys stroked"
-        className="rounded-br-full"
+        className="lg:rounded-br-full"
       />
     </div>
     <div className="flex flex-col justify-center items-center lg:w-1/2">
