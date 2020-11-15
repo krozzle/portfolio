@@ -6,6 +6,7 @@ import CanDoForYou from '../src/components/CanDoForYou';
 import Intro from '../src/components/Intro';
 import MyWork from '../src/components/MyWork';
 import Page from '../src/components/Page';
+import ThankYou from '../src/components/ThankYou';
 
 const Index = () => {
   // const { viewer } = useViewerQuery().data!;
@@ -16,6 +17,7 @@ const Index = () => {
       <CanDoForYou />
       <About />
       <MyWork />
+      <ThankYou />
     </Page>
   );
 };

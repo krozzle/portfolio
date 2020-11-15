@@ -6,6 +6,9 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      backgroundImage: {
+        enjoyToday: '/enjoyToday.jpg',
+      },
       outline: {
         vdvPink: '0.5px solid #fa0041',
       },

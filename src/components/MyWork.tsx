@@ -1,7 +1,7 @@
 const MyWork = () => (
   <div
     id="myWork"
-    className="flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-around bg-blue-400"
+    className="flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-around bg-gradient-to-b  from-blue-400 to-black"
   >
     <div className=" lg:inline lg:w-1/2">
       <img
