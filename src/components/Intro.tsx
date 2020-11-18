@@ -47,18 +47,21 @@ const Intro = () => {
     >
       <div className="lg:w-1/2 px-8 flex flex-col justify-center items-center lg:items-end text-5xl text-gray-800 font-extrabold text-center lg:text-right">
         <h1>
-          Let's turn your <br /> ideas into something
+          Let's turn <br /> your ideas into <br /> something
         </h1>
         <p>{word}</p>
-        <div className="mt-4 text-3xl font-medium text-gray-800">
+        <div className="mt-4 text-3xl font-medium">
           <p>Hi, my name is Chris.</p>
-          <p>I am a React Frontend Developer.</p>
+          <p>
+            I am a React <br className="lg:hidden" />
+            Frontend Developer.
+          </p>
         </div>
-        <div className="flex items-end">
-          <div className="mt-4 mr-8 py-1 px-4 rounded-2xl shadow-lg font-normal text-2xl bg-gray-800 text-gray-200">
+        <div className="flex items-end font-normal text-2xl text-gray-200">
+          <div className="mt-4 mr-8 py-1 px-4 rounded-2xl shadow-lg bg-gray-800">
             my work
           </div>
-          <div className="w-xs mt-4 py-1 px-4 rounded-2xl shadow-lg font-normal text-2xl bg-gray-800 text-gray-200">
+          <div className="w-xs mt-4 py-1 px-4 rounded-2xl shadow-lg bg-gray-800">
             about me
           </div>
         </div>
