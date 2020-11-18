@@ -12,16 +12,16 @@ const skillLinks = [
     alt: 'next.js logo',
   },
   {
-    title: 'GraphQL',
-    url: 'https://graphql.org',
-    logo: '/graphql.svg',
-    alt: 'graphql logo',
-  },
-  {
     title: 'TypeScript',
     url: 'https://typescriptlang.org',
     logo: '/typescript.svg',
     alt: 'typescript logo',
+  },
+  {
+    title: 'GraphQL',
+    url: 'https://graphql.org',
+    logo: '/graphql.svg',
+    alt: 'graphql logo',
   },
   {
     title: 'Node',
@@ -47,17 +47,17 @@ const Skills = () => (
     </div>
     <div className="flex flex-wrap justify-around items-center text-gray-900">
       {skillLinks.map((skill, i) => (
-        <div
-          key={i}
-          className="flex flex-col mx-16 md:mx-12 lg:mx-10 xl:mx-16 sm:px-8 md:px-8 lg:px-12 xl:px-16 justify-center items-center"
-        >
-          <div>
-            <img src={skill.logo} alt={skill.alt} className="w-24 h-24" />
+        <a href={skill.url}>
+          <div
+            key={i}
+            className="flex flex-col my-12 mx-16 sm:mx-24 lg:mx-20 lg:px-2 xl:mx-32 xl:p-0 justify-center items-center"
+          >
+            <div>
+              <img src={skill.logo} alt={skill.alt} className="w-24 h-24" />
+            </div>
+            <div>{skill.title}</div>
           </div>
-          <div>
-            <a href={skill.url}>{skill.title}</a>
-          </div>
-        </div>
+        </a>
       ))}
     </div>
   </div>
