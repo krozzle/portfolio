@@ -43,9 +43,9 @@ const Intro = () => {
   return (
     <div
       id="intro"
-      className="flex flex-col lg:flex-row items-center justify-center lg:justify-around min-h-screen py-24 bg-gray-200"
+      className="flex flex-col lg:flex-row items-center justify-center lg:justify-around min-h-screen py-12 lg:py-24 bg-gray-100"
     >
-      <div className="lg:w-1/2 px-8 flex flex-col justify-center items-center lg:items-end text-5xl text-gray-800 font-extrabold text-center lg:text-right">
+      <div className="lg:w-1/2 px-8 flex flex-col justify-center items-center lg:items-end text-5xl text-gray-800 font-extrabold tracking-wide text-center lg:text-right">
         <h1>
           Let's turn <br /> your ideas into <br /> something
         </h1>
