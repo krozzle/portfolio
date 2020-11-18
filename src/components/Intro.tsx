@@ -45,7 +45,7 @@ const Intro = () => {
       id="intro"
       className="flex flex-col lg:flex-row items-center justify-center lg:justify-around min-h-screen py-12 lg:py-24 bg-gray-100"
     >
-      <div className="lg:w-1/2 px-8 flex flex-col justify-center items-center lg:items-end text-5xl text-gray-800 font-extrabold tracking-wide text-center lg:text-right">
+      <div className="lg:w-1/2 px-12 flex flex-col justify-center items-center lg:items-end text-5xl text-gray-800 font-extrabold tracking-wide text-center lg:text-right">
         <h1>
           Let's turn <br /> your ideas into <br /> something
         </h1>
@@ -58,10 +58,10 @@ const Intro = () => {
           </p>
         </div>
         <div className="flex items-end font-normal text-2xl text-gray-200">
-          <div className="mt-4 mr-8 py-1 px-4 rounded-2xl shadow-lg bg-gray-800">
+          <div className="mr-8 mt-4 py-1 px-4 rounded-2xl shadow-lg bg-gray-800 cursor-pointer">
             my work
           </div>
-          <div className="w-xs mt-4 py-1 px-4 rounded-2xl shadow-lg bg-gray-800">
+          <div className="mt-4 py-1 px-4 rounded-2xl shadow-lg bg-gray-800 cursor-pointer">
             about me
           </div>
         </div>
@@ -70,7 +70,7 @@ const Intro = () => {
         <img
           src="/kriz-cv.jpg"
           alt="picture of krozzle posing for a new profile picture"
-          className="max-w-sm md:max-w-md lg:mr-auto px-12 py-12 shadow-sm rounded-tl-full rounded-br-full"
+          className="max-w-sm lg:max-w-md lg:mr-auto px-12 shadow-sm rounded-tl-full rounded-br-full"
         />
       </div>
     </div>
