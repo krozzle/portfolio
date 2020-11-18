@@ -66,7 +66,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="lg:w-1/2">
+      <div className="py-12 lg:w-1/2">
         <img
           src="/kriz-cv.jpg"
           alt="picture of krozzle posing for a new profile picture"
