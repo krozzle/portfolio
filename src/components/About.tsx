@@ -1,7 +1,7 @@
 const About = () => (
   <div
     id="about"
-    className="flex flex-col-reverse lg:flex-row justify-center items-center min-h-screen  bg-gray-700"
+    className="snap snap-start flex flex-col-reverse lg:flex-row justify-center items-center min-h-screen  bg-gray-700"
   >
     <div className="hidden lg:flex lg:flex-col w-full lg:w-2/3 xl:py-32 px-8 xl:px-16 xl:mx-auto xl:max-w-6xl text-3xl text-center text-gray-500 lg:text-right tracking-wider lg:tracking-normal leading-18">
       <p>

@@ -1,14 +1,15 @@
 import { useEffect, useState } from 'react';
 
 const Intro = () => {
-  const [word, setWord] = useState('being');
+  const [word, setWord] = useState('you');
 
   const wordSelection = [
-    'reality',
-    'something beautiful',
-    'something fast',
-    'something you want',
-    'something yours',
+    'real',
+    'stylish',
+    'responsive',
+    'ingenious',
+    'quick',
+    'yours',
   ];
 
   // console.log('randomWord: ', randomWord);
@@ -18,8 +19,7 @@ const Intro = () => {
   const randomWord = setInterval(function () {
     setWord(wordSelection[Math.floor(Math.random() * wordSelection.length)]);
     clearInterval(randomWord);
-  }, 1500);
-  console.log('word: ', word);
+  }, 2500);
 
   // clearInterval();
 
@@ -36,37 +36,39 @@ const Intro = () => {
   // wordFromArray();
 
   useEffect(() => {
-    console.log('render');
-  }, [setWord]);
+    console.log('word: ', word);
+  }, [word]);
 
   // console.log(wordFromArray);
   return (
     <div
       id="intro"
-      className="flex flex-col lg:flex-row items-center justify-center min-h-screen lg:justify-around py-24 bg-gray-200"
+      className="flex flex-col lg:flex-row items-center justify-center lg:justify-around min-h-screen py-24 bg-gray-200"
     >
+      <div className="lg:w-1/2 px-8 flex flex-col justify-center items-center lg:items-end text-5xl text-gray-800 font-extrabold text-center lg:text-right">
+        <h1>
+          Let's turn your <br /> ideas into something
+        </h1>
+        <p>{word}</p>
+        <div className="mt-4 text-3xl font-medium text-gray-800">
+          <p>Hi, my name is Chris.</p>
+          <p>I am a React Frontend Developer.</p>
+        </div>
+        <div className="flex items-end">
+          <div className="mt-4 mr-8 py-1 px-4 rounded-2xl shadow-lg font-normal text-2xl bg-gray-800 text-gray-200">
+            my work
+          </div>
+          <div className="w-xs mt-4 py-1 px-4 rounded-2xl shadow-lg font-normal text-2xl bg-gray-800 text-gray-200">
+            about me
+          </div>
+        </div>
+      </div>
       <div className="lg:w-1/2">
         <img
           src="/kriz-cv.jpg"
           alt="picture of krozzle posing for a new profile picture"
-          className="max-w-sm md:max-w-md ml-auto px-12 py-12 shadow-sm rounded-tl-full rounded-br-full"
+          className="max-w-sm md:max-w-md lg:mr-auto px-12 py-12 shadow-sm rounded-tl-full rounded-br-full"
         />
-      </div>
-      <div className="flex flex-col justify-center items-center lg:w-1/2 lg:items-baseline p-8">
-        <h1 className="text-4xl text-gray-800 font-bold tracking-wide">
-          chris wattaul
-        </h1>
-        <h1 className="text-4xl text-indigo-500 font-extrabold tracking-wide">
-          Frontend Developer
-        </h1>
-        <p className="text-3xl font-semibold leading-relaxed text-gray-800">
-          let's turn {''}
-          <span className="italic text-4xl font-bold">YOUR</span>
-        </p>
-        <p className="text-3xl font-semibold text-gray-800">ideas into</p>
-        <p className="px-2 italic leading-relaxed text-4xl font-bold text-gray-900 bg-vdvPink">
-          {word}
-        </p>
       </div>
     </div>
   );

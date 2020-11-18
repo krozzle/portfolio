@@ -4,7 +4,7 @@ import Footer from './Footer';
 import Header from './Header';
 
 const Page = ({ children }) => (
-  <div>
+  <div className="min-h-screen snap snap-y snap-mandatory overflow-scroll">
     <Head>
       <title>krozzler</title>
       <link rel="icon" href="/vdv-logo.png" />
