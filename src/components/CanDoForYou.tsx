@@ -24,7 +24,7 @@ const CanDoForYou = () => (
       </p>
     </div>
     <div className="mt-12 border-b-2 border-gray-800 w-full" />
-    <Skills></Skills>
+    <Skills />
   </div>
 );
 

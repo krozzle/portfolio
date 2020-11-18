@@ -3,7 +3,7 @@ const skillLinks = [
     title: 'React',
     url: 'https://reactjs.org',
     logo: '/reactjs.svg',
-    alt: 'react logo',
+    alt: 'react js logo',
   },
   {
     title: 'Next.js',
@@ -21,7 +21,7 @@ const skillLinks = [
     title: 'GraphQL',
     url: 'https://graphql.org',
     logo: '/graphql.svg',
-    alt: 'graphql logo',
+    alt: 'graph-ql logo',
   },
   {
     title: 'Node',
@@ -33,7 +33,7 @@ const skillLinks = [
     title: 'TailwindCss',
     url: 'https://tailwindcss.com',
     logo: '/tailwindcss.svg',
-    alt: 'tailwind logo',
+    alt: 'tailwind css logo',
   },
 ];
 
@@ -50,7 +50,7 @@ const Skills = () => (
         <a href={skill.url}>
           <div
             key={i}
-            className="flex flex-col my-12 mx-16 sm:mx-24 lg:mx-20 lg:px-2 xl:mx-32 xl:p-0 justify-center items-center"
+            className="flex flex-col mb-12 mx-16 sm:mx-24 lg:mx-20 lg:px-2 xl:mx-32 xl:p-0 justify-center items-center"
           >
             <div>
               <img src={skill.logo} alt={skill.alt} className="w-24 h-24" />
