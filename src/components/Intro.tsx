@@ -16,10 +16,10 @@ const Intro = () => {
 
   // const intervalWord = window.setInterval(randomWord, 2000);
 
-  const randomWord = setInterval(function () {
-    setWord(wordSelection[Math.floor(Math.random() * wordSelection.length)]);
-    clearInterval(randomWord);
-  }, 2500);
+  // const randomWord = setInterval(function () {
+  //   setWord(wordSelection[Math.floor(Math.random() * wordSelection.length)]);
+  //   clearInterval(randomWord);
+  // }, 2500);
 
   // clearInterval();
 
@@ -43,7 +43,7 @@ const Intro = () => {
   return (
     <div
       id="intro"
-      className="flex flex-col lg:flex-row items-center justify-center lg:justify-around min-h-screen py-12 lg:py-24 bg-gray-100"
+      className="flex flex-col lg:flex-row items-center justify-center lg:justify-around py-12 lg:py-12 bg-gray-100"
     >
       <div className="lg:w-1/2 px-12 flex flex-col justify-center items-center lg:items-end text-5xl text-gray-800 font-extrabold tracking-wide text-center lg:text-right">
         <h1>
