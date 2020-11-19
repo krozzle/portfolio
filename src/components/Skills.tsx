@@ -40,22 +40,19 @@ const skillLinks = [
 const Skills = () => (
   <div
     id="skills"
-    className="flex flex-col items-center justify-center text-center text-gray-800 tracking-wide"
+    className="flex flex-col py-6 items-center justify-center text-center text-gray-800 tracking-wide"
   >
     <h1 className="uppercase text-5xl font-extrabold">skills</h1>
-    <div className="flex flex-wrap justify-around items-center text-gray-900">
+    <div className="flex flex-wrap py-6 justify-around items-center text-gray-900">
       {skillLinks.map((skill, i) => (
-        <div key={i} className="flex flex-col w-1/2 lg:w-1/3 ">
-          <div className="flex flex-col py-12 mx-2 lg:mx-16 justify-center items-center">
+        <div
+          key={i}
+          className="flex flex-col w-1/2 lg:w-1/3 justify-center items-center"
+        >
+          <div className="flex flex-col py-12 mx-2 lg:mx-16">
             <a href={skill.url}>
-              <img
-                src={skill.logo}
-                alt={skill.alt}
-                className="w-24 h-24 object-contain object-center"
-              />
-              <div className="py-2 px-4 text-lg tracking-wide">
-                {skill.title}
-              </div>
+              <img src={skill.logo} alt={skill.alt} className="w-24 h-24" />
+              <div className="py-4 text-lg tracking-wide">{skill.title}</div>
             </a>
           </div>
         </div>
