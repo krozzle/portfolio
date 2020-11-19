@@ -46,7 +46,7 @@ const Intro = () => {
     >
       <div className="lg:w-1/2 px-12 flex flex-col justify-center items-center lg:items-end text-5xl text-gray-800 font-extrabold tracking-wide text-center lg:text-right">
         <h1>
-          Let's turn <br /> your ideas into <br /> something
+          Let's turn <br /> your ideas into
         </h1>
         <p>{word}</p>
         <div className="mt-4 text-3xl font-medium">

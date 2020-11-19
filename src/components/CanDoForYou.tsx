@@ -6,12 +6,12 @@ const CanDoForYou = () => (
       id="canDoForYou"
       className="flex flex-col py-12 lg:p-24 items-center justify-center text-center text-gray-800 tracking-wide "
     >
-      <div className="">
+      <div className="py-6">
         <h1 className="uppercase text-5xl font-extrabold">
           what i can <br className="lg:hidden" /> do for you
         </h1>
       </div>
-      <div className="py-12 text-left font-medium text-3xl">
+      <div className="py-6 text-left font-medium text-3xl">
         <p>
           I create software <br className="lg:hidden" /> solutions to make life{' '}
           <br />
