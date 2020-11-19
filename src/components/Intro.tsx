@@ -1,16 +1,15 @@
-import { useEffect, useState } from 'react';
-
 const Intro = () => {
-  const [word, setWord] = useState('you');
+  // const [word, setWord] = useState('you');
+  const word = 'being';
 
-  const wordSelection = [
-    'real',
-    'stylish',
-    'responsive',
-    'ingenious',
-    'quick',
-    'yours',
-  ];
+  // const wordSelection = [
+  //   'real',
+  //   'stylish',
+  //   'responsive',
+  //   'ingenious',
+  //   'quick',
+  //   'yours',
+  // ];
 
   // console.log('randomWord: ', randomWord);
 
@@ -35,9 +34,9 @@ const Intro = () => {
 
   // wordFromArray();
 
-  useEffect(() => {
-    console.log('word: ', word);
-  }, [word]);
+  // useEffect(() => {
+  //   console.log('word: ', word);
+  // }, [word]);
 
   // console.log(wordFromArray);
   return (
