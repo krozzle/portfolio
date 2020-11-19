@@ -4,14 +4,14 @@ import Footer from './Footer';
 import Header from './Header';
 
 const Page = ({ children }) => (
-  <div className="min-h-screen">
+  <div>
     <Head>
       <title>krozzler</title>
       <link rel="icon" href="/vdv-logo.png" />
       <link rel="stylesheet" href="/src/styles/tailwind.css" />
     </Head>
 
-    <div className="bg-gray-100 min-h-screen">
+    <div className="bg-gray-300">
       <Header />
       <div>{children}</div>
     </div>
