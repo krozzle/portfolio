@@ -1,11 +1,7 @@
-import AboutMobile from './utils/AboutMobile';
-
 const About = () => (
-  <div
-    id="about"
-    className="flex flex-col-reverse lg:flex-row justify-center items-center min-h-screen bg-gray-100"
-  >
-    <div className="hidden lg:flex lg:flex-col w-full lg:w-2/3 xl:py-32 px-8 xl:px-16 xl:mx-auto xl:max-w-6xl text-3xl text-center text-gray-800 lg:text-right tracking-wider lg:tracking-normal leading-18">
+  <div id="about" className="flex flex-col px-12 min-h-screen bg-gray-100">
+    <div className="flex flex-col w-full max-w-6xl text-gray-800 lg:text-right tracking-wider lg:tracking-normal leading-18">
+      <h1>About me</h1>
       <p>
         Born and raised in Vienna, Austria, <br />
         of mixed descent, there's no other place <br /> I want to call home.
@@ -58,10 +54,7 @@ const About = () => (
         .
       </p>
     </div>
-    <AboutMobile />
-    <div className="flex justify-center items-center p-1 lg:items-end lg:w-1/3 text-6xl font-semibold text-gray-800 border-b-2 border-vdvPink tracking-wide">
-      <p>About me</p>
-    </div>
+    {/* <AboutMobile /> */}
   </div>
 );
 
