@@ -7,7 +7,7 @@ const Page = ({ children }) => (
   <div>
     <Head>
       <title>krozzler</title>
-      <link rel="icon" href="/vdv-logo.png" />
+      <link rel="icon" href="/flipFlops.svg" />
       <link rel="stylesheet" href="/src/styles/tailwind.css" />
     </Head>
 
