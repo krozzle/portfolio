@@ -4,7 +4,7 @@ const CanDoForYou = () => (
   <div className="min-h-screen py-12 bg-gray-300">
     <div
       id="canDoForYou"
-      className="flex flex-col py-12 lg:p-24 items-center justify-center text-center text-gray-800 tracking-wide"
+      className="flex flex-col py-6 items-center justify-center text-center text-gray-800 tracking-wide"
     >
       <div className="py-6">
         <h1 className="uppercase text-5xl font-extrabold">
