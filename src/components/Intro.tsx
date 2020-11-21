@@ -56,13 +56,17 @@ const Intro = () => {
             Frontend Developer.
           </p>
         </div>
-        <div className="flex items-end font-normal text-2xl text-gray-200">
-          <div className="mr-8 mt-4 py-1 px-4 rounded-2xl shadow-lg bg-gray-800 cursor-pointer">
-            my work
-          </div>
-          <div className="mt-4 py-1 px-4 rounded-2xl shadow-lg bg-gray-800 cursor-pointer">
-            about me
-          </div>
+        <div className="flex items-center font-normal text-2xl text-gray-200">
+          <a href="#about">
+            <div className="mr-8 mt-4 py-1 px-4 rounded-2xl shadow-md hover:shadow-lg bg-gray-800 transition duration-500 ease-in-out hover:bg-gray-200 hover:text-gray-800 cursor-pointer">
+              my work
+            </div>
+          </a>
+          <a href="#about">
+            <div className="mt-4 py-1 px-4 rounded-2xl shadow-lg bg-gray-800 transition duration-500 ease-in-out hover:bg-gray-200 hover:text-gray-800 cursor-pointer">
+              about me
+            </div>
+          </a>
         </div>
       </div>
       <div className="py-12 lg:w-1/2">
