@@ -10,7 +10,10 @@ const Intro = () => (
       </h1>
       <div className="mt-4 text-3xl font-medium">
         <p>Hi, my name is Chris</p>
-        <p className="hidden lg:inline">I am a React Frontend Developer</p>
+        <p>
+          I am a React <br className="lg:hidden" />
+          Frontend Developer
+        </p>
       </div>
       <div className="flex items-center justify-center font-normal text-center text-2xl text-gray-200">
         <a href="#about">

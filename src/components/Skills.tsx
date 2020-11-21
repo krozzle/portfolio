@@ -1,37 +1,37 @@
 const skillLinks = [
   {
     title: 'React',
-    url: 'https://reactjs.org',
+    url: 'https://www.reactjs.org',
     logo: '/reactjs.svg',
     alt: 'react js logo',
   },
   {
     title: 'Next.js',
-    url: 'https://nextjs.org',
+    url: 'https://www.nextjs.org',
     logo: '/nextjs.svg',
     alt: 'next.js logo',
   },
   {
     title: 'TypeScript',
-    url: 'https://typescriptlang.org',
+    url: 'https://www.typescriptlang.org',
     logo: '/typescript.svg',
     alt: 'typescript logo',
   },
   {
     title: 'GraphQL',
-    url: 'https://graphql.org',
+    url: 'https://www.graphql.org',
     logo: '/graphql.svg',
     alt: 'graph-ql logo',
   },
   {
     title: 'Node',
-    url: 'https://nodejs.org',
+    url: 'https://www.nodejs.org',
     logo: '/nodejs.svg',
     alt: 'node logo',
   },
   {
     title: 'TailwindCSS',
-    url: 'https://tailwindcss.com',
+    url: 'https://www.tailwindcss.com',
     logo: '/tailwindcss.svg',
     alt: 'tailwind css logo',
   },
