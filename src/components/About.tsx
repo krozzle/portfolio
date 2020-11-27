@@ -5,7 +5,9 @@ const About = () => (
     id="about"
     className="lg:px-48 py-24 bg-gray-100 text-gray-800 tracking-wide font-medium text-3xl"
   >
-    <h1 className="text-6xl font-extrabold">About me</h1>
+    <h1 className="text-center lg:text-left text-6xl font-extrabold">
+      About me
+    </h1>
     <div className="hidden lg:flex flex-col max-w-3xl justify-center ">
       <p>
         Born and raised in Vienna, Austria, <br />
