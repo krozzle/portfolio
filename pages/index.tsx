@@ -4,7 +4,7 @@ import { ViewerDocument } from '../lib/viewer.graphql';
 import About from '../src/components/About';
 import CanDoForYou from '../src/components/CanDoForYou';
 import GetInTouch from '../src/components/GetInTouch';
-import Intro from '../src/components/Intro';
+import Hero from '../src/components/Hero';
 import MyWork from '../src/components/MyWork';
 import Page from '../src/components/Page';
 
@@ -13,7 +13,7 @@ const Index = () => {
 
   return (
     <Page>
-      <Intro />
+      <Hero />
       <CanDoForYou />
       <About />
       <MyWork />
