@@ -16,8 +16,8 @@ const navLinks = [
 ];
 
 const NavLinks = () => (
-  <div className="w-full md:w-2/3 h-24 flex justify-between items-center px-32 bg-indigo-900 text-xl">
-    <div>
+  <div className="w-full md:w-2/3 h-24 flex justify-between lg:justify-between items-center lg:px-32 bg-indigo-900 text-xl">
+    <div className="px-12">
       <a href="/">Chris Wattaul</a>
     </div>
 
@@ -25,7 +25,7 @@ const NavLinks = () => (
       {navLinks.map((nav, i) => (
         <Link href={nav.section} key={i}>
           <a>
-            <li key={i} className="px-4">
+            <li key={i} className="pr-4">
               {nav.title}
             </li>
           </a>
