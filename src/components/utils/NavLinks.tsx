@@ -3,15 +3,15 @@ import Link from 'next/link';
 const navLinks = [
   {
     title: 'Work',
-    href: '#work',
+    section: '/',
   },
   {
     title: 'Skills',
-    href: '#skills',
+    section: '#skills',
   },
   {
     title: 'About',
-    href: '#about',
+    section: '#about',
   },
 ];
 
@@ -23,7 +23,7 @@ const NavLinks = () => (
 
     <ul className="flex justify-around items-center text-lg">
       {navLinks.map((nav, i) => (
-        <Link href={nav.href}>
+        <Link href={nav.section} key={i}>
           <a>
             <li key={i} className="px-4">
               {nav.title}

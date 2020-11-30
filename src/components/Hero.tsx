@@ -6,7 +6,11 @@ const Hero = () => (
           Web Experiences <br /> Built In <br /> Delightful Ways
         </h1>
         <div className="flex text-gray-200">
-          <img src="/chevrons-down.svg" alt="chevrons pointing down" />
+          <img
+            src="/chevrons-down.svg"
+            alt="chevrons pointing down"
+            className="animate-pulse"
+          />
           <p className="text-xl">Get To Know Chris Wattaul</p>
         </div>
       </div>

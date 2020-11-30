@@ -3,6 +3,7 @@ import { initializeApollo } from '../lib/apollo';
 import { ViewerDocument } from '../lib/viewer.graphql';
 import About from '../src/components/About';
 import CanDoForYou from '../src/components/CanDoForYou';
+import FeaturedSection from '../src/components/FeaturedSection';
 import GetInTouch from '../src/components/GetInTouch';
 import Hero from '../src/components/Hero';
 import MyWork from '../src/components/MyWork';
@@ -14,6 +15,7 @@ const Index = () => {
   return (
     <Page>
       <Hero />
+      <FeaturedSection />
       <CanDoForYou />
       <About />
       <MyWork />
