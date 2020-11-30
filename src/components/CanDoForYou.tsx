@@ -1,19 +1,19 @@
 const CanDoForYou = () => (
-  <div className="pl-32 py-20 bg-gray-100">
+  <div className="md:pl-32 py-32 bg-gray-100 text-gray-900">
     <div
       id="canDoForYou"
-      className="flex flex-col py-6 items-start justify-center text-center text-gray-800 tracking-wide"
+      className="flex flex-col items-center md:items-start justify-center text-center text-gray-800 tracking-wide"
     >
-      <div className="py-6">
-        <h1 className="uppercase text-5xl font-extrabold">
+      <div className="">
+        <h1 className="uppercase text-4xl font-extrabold">
           what i can <br className="lg:hidden" /> do for you
         </h1>
       </div>
-      <div className="py-6 text-left font-medium text-3xl">
+      <div className="py-6 md:text-left font-medium text-2xl text-gray-700">
         <p>
           I create software <br className="lg:hidden" /> solutions to make life{' '}
           <br />
-          <span className="text-gray-900">just a bit easier.</span>
+          just a bit easier.
         </p>
         <p>
           Offering a helping hand

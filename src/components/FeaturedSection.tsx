@@ -7,9 +7,14 @@ const FeaturedSection = () => (
         className="hidden lg:inline absolute bottom-0 left-0 lg:w-52 2xl:w-64"
       />
       <h2 className="text-2xl text-indigo-700">featured project</h2>
-      <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold py-1">
-        VirtualDojoVienna.com <br /> (Update)
-      </h1>
+      <a
+        href="http://virtualdojovienna.com"
+        className="hover:text-vdvPink transition-colors duration-300"
+      >
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold py-1">
+          VirtualDojoVienna.com <br /> (Update)
+        </h1>
+      </a>
       <div className="lg:w-2/3 py-4 text-xl text-gray-700">
         <p>
           Virtual Dojo Vienna is a non-profit organization dedicated to provide

@@ -73,7 +73,10 @@ const Skillset = () => (
           <img src={skill.img} alt={skill.alt} className="w-40 h-40 pb-16" />
           <h2 className="text-xl text-indigo-700">{skill.title}</h2>
           {skill.tech.map((technology, j) => (
-            <a href={technology.url}>
+            <a
+              href={technology.url}
+              className="hover:text-vdvPink transition-colors duration-300"
+            >
               <p key={j} className="">
                 {technology.name}
               </p>
