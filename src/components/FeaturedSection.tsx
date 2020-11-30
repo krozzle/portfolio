@@ -1,6 +1,6 @@
 const FeaturedSection = () => (
-  <div className="flex flex-col py-24 justify-center items-center lg:flex-row lg:items-center lg:justify-between bg-gray-100 text-gray-900 tracking-wide leading-relaxed relative">
-    <div className="w-full lg:w-1/2 md:pl-32 flex flex-col justify-center items-center md:items-start">
+  <div className="flex flex-col py-24 justify-center items-center lg:flex-row lg:items-center lg:justify-between bg-gray-100 text-gray-900 tracking-wide leading-relaxed relative text-center lg:text-left">
+    <div className="w-full lg:w-1/2 lg:pl-32 flex flex-col justify-center items-center lg:items-start">
       <img
         src="/circle.svg"
         alt="pink circle"
@@ -15,10 +15,10 @@ const FeaturedSection = () => (
           VirtualDojoVienna.com <br /> (Update)
         </h1>
       </a>
-      <div className="lg:w-2/3 py-4 text-xl text-gray-700">
+      <div className="px-12 lg:px-0 lg:px-0 lg:w-2/3 py-4 text-center lg:text-left text-lg lg:text-xl text-gray-700">
         <p>
-          Virtual Dojo Vienna is a non-profit organization dedicated to provide
-          a home for fighting game enthusiasts in Vienna, Austria.
+          Virtual Dojo Vienna is a non-profit organization dedicated to
+          providing a home for fighting game enthusiasts in Vienna, Austria.
         </p>
         <p>
           This update will add the ability to manage legal documents, track
@@ -27,11 +27,13 @@ const FeaturedSection = () => (
       </div>
     </div>
     <div className="lg:w-1/2 px-8 py-8 md:-mb-48">
-      <img
-        src="/vdv-screenshot.png"
-        alt="screenshot of hero of section of virtualdojovienna.com"
-        className="rounded-2xl lg:min-w-full"
-      />
+      <a href="http://virtualdojovienna.com">
+        <img
+          src="/vdv-screenshot.png"
+          alt="screenshot of hero of section of virtualdojovienna.com"
+          className="rounded-2xl lg:min-w-full"
+        />
+      </a>
     </div>
   </div>
 );

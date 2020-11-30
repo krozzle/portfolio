@@ -64,11 +64,11 @@ const skills = [
 
 const Skillset = () => (
   <div>
-    <div className="pt-12 bg-gray-300 text-gray-700 tracking-wide leading-relaxed flex flex-col justify-center items-center md:flex-row md:justify-center md:items-end">
+    <div className="pt-12 bg-gray-300 text-gray-700 tracking-wide leading-relaxed flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-end">
       {skills.map((skill, i) => (
         <div
           key={i}
-          className="py-12 px-24 my-12 md:mx-12 md:-mb-24 bg-gray-100 rounded-2xl h-96 flex flex-col justify-center md:justify-between items-center"
+          className="py-12 px-24 my-12 lg:mx-12 lg:-mb-24 bg-gray-100 rounded-2xl h-96 flex flex-col justify-center lg:justify-between items-center"
         >
           <img src={skill.img} alt={skill.alt} className="w-40 h-40 pb-16" />
           <h2 className="text-xl text-indigo-700">{skill.title}</h2>
