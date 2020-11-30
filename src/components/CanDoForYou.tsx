@@ -1,10 +1,8 @@
-import Skills from './Skills';
-
 const CanDoForYou = () => (
-  <div className="min-h-screen py-12 bg-gray-100">
+  <div className="pl-32 py-20 bg-gray-100">
     <div
       id="canDoForYou"
-      className="flex flex-col py-6 items-center justify-center text-center text-gray-800 tracking-wide"
+      className="flex flex-col py-6 items-start justify-center text-center text-gray-800 tracking-wide"
     >
       <div className="py-6">
         <h1 className="uppercase text-5xl font-extrabold">
@@ -24,9 +22,7 @@ const CanDoForYou = () => (
           you have in mind.
         </p>
       </div>
-      <div className="py-6 border-b-2 border-gray-800 w-1/2" />
     </div>
-    <Skills />
   </div>
 );
 

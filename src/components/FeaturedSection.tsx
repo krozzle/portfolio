@@ -16,9 +16,8 @@ const FeaturedSection = () => (
           a home for fighting game enthusiasts in Vienna, Austria.
         </p>
         <p>
-          To make life easier for the people running the club, this update will
-          add the ability to manage legal documents, track inventory and give
-          members a place to communicate and organize.
+          This update will add the ability to manage legal documents, track
+          inventory and give members a place to communicate and organize.
         </p>
       </div>
     </div>
