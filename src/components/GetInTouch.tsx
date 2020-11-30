@@ -1,22 +1,20 @@
 const GetInTouch = () => (
   <div
     id="getInTouch"
-    className="flex flex-col lg:flex-row-reverse items-center justify-center lg:justify-around bg-gradient-to-b from-black via-gray-800 to-vdvPink"
+    className="flex flex-col items-center lg:items-start justify-center lg:pl-32 py-32 tracking-wide leading-relaxed text-center lg:text-left text-2xl text-gray-50 bg-gray-900"
   >
-    <div className="lg:w-1/2">
-      <img
-        src="/enjoyToday.jpg"
-        alt="light blue neon lights that spell the words 'enjoy today' on two lines"
-        className="lg:rounded-tl-full"
-      />
+    <div>
+      <h1 className="text-4xl lg:text-5xl font-bold">Get In Touch</h1>
+      <p className="py-6 px-12 lg:px-0 lg:w-1/3 text-gray-200">
+        If you have an offer, opportunity or introduction that might make my
+        life more interesting and exciting, don’t hesitate and reach out.
+      </p>
     </div>
-    <div className="flex px-12 py-16 lg:w-1/2 justify-center items-center rounded-3xl">
-      <a href="/contact" className="rounded-3xl">
-        <div className="px-6 py-1 bg-gray-800 bg-opacity-25 rounded-3xl text-3xl font-hairline text-vdvPink hover:text-opacity-75 border-b border-vdvPink tracking-wider uppercase shadow-lg hover:shadow-2xl">
-          get in touch
-        </div>
-      </a>
-    </div>
+    <a href="mailto:christopher.wattaul@gmail.com">
+      <div className="px-12 py-4 rounded-full border-b-2 hover:border-t-2  hover:shadow-lg border-gray-200 bg-vdvPink text-3xl">
+        Contact Me
+      </div>
+    </a>
   </div>
 );
 

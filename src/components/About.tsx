@@ -1,51 +1,57 @@
-import AboutMobile from './utils/AboutMobile';
-
 const About = () => (
   <div
     id="about"
-    className="lg:px-48 py-24 bg-gray-100 text-gray-800 tracking-wide font-medium text-3xl"
+    className="flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-center lg:px-32 py-24 bg-gray-300 text-gray-900 tracking-wide leading-relaxed text-2xl text-center lg:text-left"
   >
-    <h1 className="text-center lg:text-left text-6xl font-extrabold">
-      About me
-    </h1>
-    <div className="hidden lg:flex flex-col max-w-3xl justify-center ">
+    <div className="py-24 lg:py-0 w-64 lg:w-1/3">
+      <img
+        src="/kriz-cv.jpg"
+        alt="chris posing for a profile picture"
+        className="rounded-full lg:w-96"
+      />
+    </div>
+    <div className="flex-col justify-center lg:items-start px-12">
+      <h1 className="pb-6 text-center lg:text-left text-4xl lg:text-5xl font-bold">
+        About me
+      </h1>
       <p>
-        Born and raised in Vienna, Austria, <br />
-        of mixed descent, there's no other place <br /> I want to call home.
+        Born and raised in Vienna, Austria, <br className="hidden lg:inline" />
+        of mixed descent, there's no other place{' '}
+        <br className="hidden lg:inline" /> I want to call home.
       </p>
       <p>
-        Following up a decade worth of nursing,
+        Following up a decade worth of nursing,{' '}
         <br className="hidden lg:inline" />I kicked things off with a coding
-        bootcamp <br />
+        bootcamp <br className="hidden lg:inline" />
         <a
           href="upleveled.io"
-          className="underline rounded-2xl md:hover:bg-vdvPink md:hover:bg-opacity-50"
+          className="hover:text-vdvPink transition-colors duration-300"
         >
           @UpLeveled
         </a>{' '}
-        with a strong focus on <br />
+        with a strong focus on <br className="hidden lg:inline" />
         <a
           href="https://reactjs.org"
-          className="underline rounded-2xl md:hover:bg-vdvPink md:hover:bg-opacity-50"
+          className="hover:text-vdvPink transition-colors duration-300"
         >
           React
         </a>
         ,{' '}
         <a
           href="https://nextjs.org"
-          className="underline rounded-2xl md:hover:bg-vdvPink md:hover:bg-opacity-50"
+          className="hover:text-vdvPink transition-colors duration-300"
         >
           Next.js
         </a>{' '}
         and{' '}
         <a
           href="https://graphql.org"
-          className="underline rounded-2xl md:hover:bg-vdvPink md:hover:bg-opacity-50"
+          className="hover:text-vdvPink transition-colors duration-300"
         >
           GraphQL
         </a>
         .
-        <br />
+        <br className="hidden lg:inline" />
       </p>
       <p>
         I enjoy sharing my effort, at the same time{' '}
@@ -54,14 +60,13 @@ const About = () => (
         You can also find me hanging out <br />
         <a
           href="virtualdojovienna.com"
-          className="underline rounded-2xl md:hover:bg-vdvPink md:hover:bg-opacity-50"
+          className="hover:text-vdvPink transition-colors duration-300"
         >
           @Virtual Dojo Vienna
         </a>
         .
       </p>
     </div>
-    <AboutMobile />
   </div>
 );
 

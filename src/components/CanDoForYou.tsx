@@ -1,32 +1,28 @@
-import Skills from './Skills';
-
 const CanDoForYou = () => (
-  <div className="min-h-screen py-12 bg-gray-300">
+  <div className="lg:pl-32 py-32 bg-gray-100 text-gray-900">
     <div
       id="canDoForYou"
-      className="flex flex-col py-6 items-center justify-center text-center text-gray-800 tracking-wide"
+      className="flex flex-col items-center lg:items-start justify-center text-center text-gray-900 tracking-wide leading-relaxed"
     >
-      <div className="py-6">
-        <h1 className="uppercase text-5xl font-extrabold">
-          what i can <br className="lg:hidden" /> do for you
+      <div className="">
+        <h1 className="text-4xl lg:text-5xl font-bold">
+          What I Can <br className="lg:hidden" /> Do For You
         </h1>
       </div>
-      <div className="py-6 text-left font-medium text-3xl">
+      <div className="py-6 lg:text-left text-2xl text-gray-700">
         <p>
           I create software <br className="lg:hidden" /> solutions to make life{' '}
           <br />
-          <span className="text-gray-900">just a bit easier.</span>
+          just a bit easier.
         </p>
         <p>
           Offering a helping hand
-          <br className="lg:hidden" /> to build the piece of <br className="" />{' '}
-          web technology that <br className="lg:hidden" />
+          <br className="lg:hidden" /> to build the piece of <br /> web
+          technology that <br className="lg:hidden" />
           you have in mind.
         </p>
       </div>
-      <div className="py-6 border-b-2 border-gray-800 w-1/2" />
     </div>
-    <Skills />
   </div>
 );
 

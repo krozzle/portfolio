@@ -2,7 +2,7 @@ import Page from '../src/components/Page';
 
 const LegalNotice = () => (
   <Page>
-    <div className="flex flex-col justify-center items-center min-h-screen bg-gradient-to-br from-orange-400 to-indigo-600 mx-auto py-12">
+    <div className="flex flex-col justify-center items-center min-h-screen bg-gray-300 mx-auto py-12">
       <div className="bg-yellow-200 max-w-sm rounded-lg shadow-xl bg-opacity-25">
         <div className="flex my-8 pb-12 px-6 text-gray-900 leading-relaxed">
           <div className="flex flex-col">

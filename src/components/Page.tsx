@@ -11,7 +11,7 @@ const Page = ({ children }) => (
       <link rel="stylesheet" href="/src/styles/tailwind.css" />
     </Head>
 
-    <div className="bg-gray-300">
+    <div>
       <Header />
       <div>{children}</div>
     </div>
