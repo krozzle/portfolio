@@ -1,7 +1,7 @@
 import Skills from './Skills';
 
 const CanDoForYou = () => (
-  <div className="min-h-screen py-12 bg-gray-300">
+  <div className="min-h-screen py-12 bg-gray-100">
     <div
       id="canDoForYou"
       className="flex flex-col py-6 items-center justify-center text-center text-gray-800 tracking-wide"

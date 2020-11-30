@@ -22,11 +22,11 @@ const FeaturedSection = () => (
         </p>
       </div>
     </div>
-    <div className="lg:w-1/2 px-8 py-8 -mb-48">
+    <div className="lg:w-1/2 px-8 py-8 md:-mb-48">
       <img
         src="/vdv-screenshot.png"
         alt="screenshot of hero of section of virtualdojovienna.com"
-        className="rounded-xl lg:min-w-full"
+        className="rounded-2xl lg:min-w-full"
       />
     </div>
   </div>

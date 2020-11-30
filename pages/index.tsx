@@ -8,6 +8,7 @@ import GetInTouch from '../src/components/GetInTouch';
 import Hero from '../src/components/Hero';
 import MyWork from '../src/components/MyWork';
 import Page from '../src/components/Page';
+import Skillset from '../src/components/Skillset';
 
 const Index = () => {
   // const { viewer } = useViewerQuery().data!;
@@ -16,6 +17,7 @@ const Index = () => {
     <Page>
       <Hero />
       <FeaturedSection />
+      <Skillset />
       <CanDoForYou />
       <About />
       <MyWork />
