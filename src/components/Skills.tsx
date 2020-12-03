@@ -1,4 +1,3 @@
-import { useRef } from 'react';
 
 const skills = [
   {
@@ -72,8 +71,7 @@ const skills = [
   },
 ];
 
-const Skills = () => {
-  const skillRef = useRef();
+const Skills = () => 
   return (
     <div id="skills">
       <div className="pt-12 bg-gray-300 text-gray-700 tracking-wide leading-relaxed flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-end">
@@ -94,6 +92,6 @@ const Skills = () => {
       </div>
     </div>
   );
-};
+
 
 export default Skills;
