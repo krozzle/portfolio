@@ -9,20 +9,16 @@ import Hero from '../src/components/Hero';
 import Page from '../src/components/Page';
 import Skills from '../src/components/Skills';
 
-const Index = () => {
-  // const { viewer } = useViewerQuery().data!;
-
-  return (
-    <Page>
-      <Hero />
-      <FeaturedSection />
-      <Skills />
-      <CanDoForYou />
-      <About />
-      <GetInTouch />
-    </Page>
-  );
-};
+const Index = () => (
+  <Page>
+    <Hero />
+    <FeaturedSection />
+    <Skills />
+    <CanDoForYou />
+    <About />
+    <GetInTouch />
+  </Page>
+);
 
 export async function getStaticProps() {
   const apolloClient = initializeApollo();
