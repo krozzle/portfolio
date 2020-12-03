@@ -38,7 +38,6 @@ const NavLinks = () => {
                   left: 0,
                   behavior: 'smooth',
                 });
-                // location.hash = nav.id;
                 window.history.pushState(null, '', '#' + nav.id);
               }
             }}
