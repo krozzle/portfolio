@@ -11,7 +11,7 @@ const GetInTouch = () => (
       </p>
     </div>
     <a href="mailto:christopher.wattaul@gmail.com">
-      <div className="px-12 py-4 rounded-full border-b-2 hover:border-t-2  hover:shadow-lg border-gray-200 bg-vdvPink text-3xl">
+      <div className="px-12 py-4 rounded-full border-2 bg-vdvPink hover:bg-gray-200 hover:border-vdvPink hover:text-vdvPink duration-300 hover:shadow-xl border-gray-200 text-3xl">
         Contact Me
       </div>
     </a>
