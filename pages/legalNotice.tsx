@@ -2,8 +2,8 @@ import Page from '../src/components/Page';
 
 const LegalNotice = () => (
   <Page>
-    <div className="flex flex-col justify-center items-center min-h-screen bg-gray-300 mx-auto py-12">
-      <div className="bg-yellow-200 max-w-sm rounded-lg shadow-xl bg-opacity-25">
+    <div className="flex flex-col justify-center items-center min-h-screen bg-gray-100 mx-auto py-12">
+      <div className="bg-gray-300 max-w-sm rounded-lg shadow-xl bg-opacity-25">
         <div className="flex my-8 pb-12 px-6 text-gray-900 leading-relaxed">
           <div className="flex flex-col">
             <div className="w-full text-2xl">Krozzler e.U.</div>
@@ -17,7 +17,7 @@ const LegalNotice = () => (
               Email:{' '}
               <a
                 href="mailto: christopher.wattaul@gmail.com"
-                className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
+                className="hover:text-vdvPink transition-colors duration-300"
               >
                 christopher.wattaul@gmail.com
               </a>
@@ -29,7 +29,7 @@ const LegalNotice = () => (
             <div>
               <a
                 href="https://ris.bka.gv.at/"
-                className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
+                className="hover:text-vdvPink transition-colors duration-300"
               >
                 Gewerbeordnung
               </a>
@@ -38,7 +38,7 @@ const LegalNotice = () => (
               Member of{' '}
               <a
                 href="https://wko.at/"
-                className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
+                className="hover:text-vdvPink transition-colors duration-300"
               >
                 WKO
               </a>
@@ -50,7 +50,7 @@ const LegalNotice = () => (
               <br />
               <a
                 href="http://ec.europa.eu/odr"
-                className="underline rounded-md md:hover:bg-vdvPink md:hover:bg-opacity-50"
+                className="hover:text-vdvPink transition-colors duration-300"
               >
                 European Commission
               </a>
