@@ -1,5 +1,8 @@
 const FeaturedSection = () => (
-  <div className="flex flex-col py-24 justify-center items-center lg:flex-row lg:items-center lg:justify-between bg-gray-100 text-gray-900 tracking-wide leading-relaxed relative text-center lg:text-left">
+  <div
+    id="work"
+    className="flex flex-col py-24 justify-center items-center lg:flex-row lg:items-center lg:justify-between bg-gray-100 text-gray-900 tracking-wide leading-relaxed relative text-center lg:text-left"
+  >
     <div className="w-full lg:w-1/2 lg:pl-32 flex flex-col justify-center items-center lg:items-start">
       <img
         src="/circle.svg"

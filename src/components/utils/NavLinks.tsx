@@ -1,19 +1,17 @@
-import Link from 'next/link';
-
 const navLinks = [
   {
     title: 'Work',
-    section: '#work',
+    id: 'work',
     ref: 'workRef',
   },
   {
     title: 'Skills',
-    section: '#skills',
+    id: 'skills',
     ref: 'skillsRef',
   },
   {
     title: 'About',
-    section: '#about',
+    id: 'about',
     ref: 'aboutRef',
   },
 ];
@@ -26,12 +24,28 @@ const NavLinks = () => {
       </div>
 
       <ul className="flex justify-around items-center space-x-4 text-lg">
-        {navLinks.map((nav, i) => (
-          <Link href={nav.section} key={i}>
-            <a ref={nav.ref}>
-              <li key={i}>{nav.title}</li>
-            </a>
-          </Link>
+        {navLinks.map((nav) => (
+          <a
+            key={nav.id}
+            onClick={(e) => {
+              e.preventDefault();
+              const element = document.getElementById(nav.id);
+              console.log(element.offsetTop - 96);
+
+              if (typeof window !== 'undefined') {
+                window.scrollTo({
+                  top: element.offsetTop - 96,
+                  left: 0,
+                  behavior: 'smooth',
+                });
+                // location.hash = nav.id;
+                window.history.pushState(null, '', '#' + nav.id);
+              }
+            }}
+            href={'#' + nav.id}
+          >
+            <li>{nav.title}</li>
+          </a>
         ))}
       </ul>
     </div>

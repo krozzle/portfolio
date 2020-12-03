@@ -75,13 +75,10 @@ const skills = [
 const Skills = () => {
   const skillRef = useRef();
   return (
-    <div ref={skillRef}>
+    <div id="skills">
       <div className="pt-12 bg-gray-300 text-gray-700 tracking-wide leading-relaxed flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-end">
         {skills.map((skill, i) => (
-          <div
-            key={i}
-            className="py-12 px-24 my-12 lg:mx-12 lg:-mb-24 bg-gray-100 rounded-2xl h-96 flex flex-col justify-center lg:justify-between items-center"
-          >
+          <div className="py-12 px-24 my-12 lg:mx-12 lg:-mb-24 bg-gray-100 rounded-2xl h-96 flex flex-col justify-center lg:justify-between items-center">
             <img src={skill.img} alt={skill.alt} className="w-40 h-40 mb-4" />
             <h2 className="text-xl text-indigo-700">{skill.title}</h2>
             {skill.tech.map((technology, j) => (

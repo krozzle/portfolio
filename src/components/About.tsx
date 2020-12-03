@@ -12,7 +12,7 @@ const About = () => (
     </div>
     <div className="flex-col justify-center lg:items-start px-12">
       <h1 className="pb-6 text-center lg:text-left text-4xl lg:text-5xl font-bold">
-        About me
+        About Me
       </h1>
       <p>
         Born and raised in Vienna, Austria, <br className="hidden lg:inline" />
