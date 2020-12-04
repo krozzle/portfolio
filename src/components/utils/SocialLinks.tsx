@@ -16,7 +16,7 @@ const socialLinks = [
   {
     title: 'LinkedIn',
     img: '/linkedin.svg',
-    href: 'https://linkedin/in/christopher-wattaul',
+    href: 'https://linkedin.com/in/christopher-wattaul',
     alt: 'linkedin',
   },
 ];
