@@ -8,11 +8,11 @@ const CanDoForYou = () => (
         className="flex flex-col items-center lg:items-start justify-center text-center text-gray-900 tracking-wide leading-relaxed"
       >
         <div className="">
-          <h1 className="text-4xl lg:text-5xl font-bold">
+          <h1 className="text-4xl font-bold">
             What I Can <br className="lg:hidden" /> Do For You
           </h1>
         </div>
-        <div className="py-6 lg:text-left text-2xl text-gray-700">
+        <div className="py-6 lg:text-left text-lg lg:text-xl text-gray-700">
           <p>
             I create software <br className="lg:hidden" /> solutions to make
             life <br />

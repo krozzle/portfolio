@@ -18,7 +18,7 @@ const navLinks = [
 
 const NavLinks = () => {
   return (
-    <div className="w-full md:w-2/3 h-24 flex justify-between lg:justify-between items-center px-12 lg:px-32 bg-indigo-900 text-xl">
+    <div className="w-full md:w-2/3 h-24 flex justify-between items-center px-12 lg:px-32 2xl:px-48 bg-indigo-900 text-xl">
       <div className="">
         <a href="/">Chris Wattaul</a>
       </div>

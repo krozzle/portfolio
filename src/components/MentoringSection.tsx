@@ -13,7 +13,9 @@ const Mentoring = () => (
         </a>
       </div>
       <div className="w-full lg:w-1/2 lg:pl-32 2xl:pl-48 flex flex-col justify-center items-center lg:items-start">
-        <h2 className="text-2xl text-indigo-700">UpLeveled.io</h2>
+        <a href="https://www.upleveled.io">
+          <h2 className="text-2xl text-indigo-700">UpLeveled.io</h2>
+        </a>
         <a
           href="https://www.upleveled.io"
           className="hover:text-vdvPink transition-colors duration-300"
