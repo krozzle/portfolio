@@ -4,7 +4,7 @@ const GetInTouch = () => (
   <Fade>
     <div
       id="getInTouch"
-      className="flex flex-col items-center lg:items-start justify-center lg:pl-32 py-32 tracking-wide leading-relaxed text-center lg:text-left text-2xl text-gray-50 bg-gray-900"
+      className="flex flex-col items-center lg:items-start justify-center lg:pl-32 2xl:pl-48 py-32 tracking-wide leading-relaxed text-center lg:text-left text-2xl text-gray-50 bg-gray-900"
     >
       <div>
         <h1 className="text-4xl lg:text-5xl font-bold">Get In Touch</h1>
@@ -14,7 +14,7 @@ const GetInTouch = () => (
         </p>
       </div>
       <a href="mailto:christopher.wattaul@gmail.com">
-        <div className="px-12 py-4 rounded-full border-2 bg-vdvPink hover:bg-gray-200 hover:border-vdvPink hover:text-vdvPink duration-300 hover:shadow-xl border-gray-200 text-3xl">
+        <div className="px-8 py-4 my-12 rounded-full border-2 bg-vdvPink hover:bg-gray-200 hover:border-vdvPink hover:text-vdvPink duration-300 hover:shadow-xl border-gray-200 text-2xl lg:text-3xl">
           Contact Me
         </div>
       </a>

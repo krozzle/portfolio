@@ -22,9 +22,6 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
-      backgroundImage: {
-        enjoyToday: '/enjoyToday.jpg',
-      },
       outline: {
         vdvPink: '0.5px solid #fa0041',
       },

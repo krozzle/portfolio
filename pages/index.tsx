@@ -6,6 +6,7 @@ import CanDoForYou from '../src/components/CanDoForYou';
 import FeaturedSection from '../src/components/FeaturedSection';
 import GetInTouch from '../src/components/GetInTouch';
 import Hero from '../src/components/Hero';
+import Mentoring from '../src/components/MentoringSection';
 import Page from '../src/components/Page';
 import Skills from '../src/components/Skills';
 
@@ -13,6 +14,7 @@ const Index = () => (
   <Page>
     <Hero />
     <FeaturedSection />
+    <Mentoring />
     <Skills />
     <CanDoForYou />
     <About />

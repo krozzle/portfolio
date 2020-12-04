@@ -1,8 +1,8 @@
 import Fade from 'react-reveal/Fade';
 
 const CanDoForYou = () => (
-  <Fade left>
-    <div className="lg:pl-32 py-32 lg:py-64 bg-gray-100 text-gray-900">
+  <Fade>
+    <div className="2xl:pl-48 lg:pl-32 py-32 lg:py-64 bg-gray-100 text-gray-900">
       <div
         id="canDoForYou"
         className="flex flex-col items-center lg:items-start justify-center text-center text-gray-900 tracking-wide leading-relaxed"

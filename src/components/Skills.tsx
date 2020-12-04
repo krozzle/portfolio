@@ -73,28 +73,30 @@ const skills = [
 ];
 
 const Skills = () => (
-  <div id="skills">
-    <div className="pt-12 bg-gray-300 text-gray-700 tracking-wide leading-relaxed flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-end">
-      {skills.map((skill, i) => (
-        <Fade bottom>
-          <div
-            key={i}
-            className="py-12 px-24 my-12 lg:mx-12 lg:-mb-24 bg-gray-100 rounded-2xl h-96 flex flex-col justify-center lg:justify-between items-center"
-          >
-            <img src={skill.img} alt={skill.alt} className="w-40 h-40 mb-4" />
-            <h2 className="text-xl text-indigo-700">{skill.title}</h2>
-            {skill.tech.map((technology, j) => (
-              <a
-                href={technology.url}
-                className="hover:text-vdvPink transition-colors duration-300"
-              >
-                <p key={j}>{technology.name}</p>
-              </a>
-            ))}
-          </div>
-        </Fade>
-      ))}
-    </div>
+  <div
+    id="skills"
+    className="pt-12 bg-gray-300 text-gray-700 tracking-wide leading-relaxed flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-end"
+  >
+    {skills.map((skill) => (
+      <Fade bottom>
+        <div
+          key={skill.title}
+          className="z-10 relative py-12 px-24 my-24 lg:mx-12 lg:-mb-24 bg-gray-100 rounded-2xl h-96 flex flex-col justify-center lg:justify-between items-center"
+        >
+          <img src={skill.img} alt={skill.alt} className="w-40 h-40 mb-4" />
+          <h2 className="text-xl text-indigo-700">{skill.title}</h2>
+          {skill.tech.map((technology, j) => (
+            <a
+              key={j}
+              href={technology.url}
+              className="hover:text-vdvPink transition-colors duration-300"
+            >
+              <p>{technology.name}</p>
+            </a>
+          ))}
+        </div>
+      </Fade>
+    ))}
   </div>
 );
 

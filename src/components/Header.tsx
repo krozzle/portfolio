@@ -4,7 +4,7 @@ import SocialLinks from './utils/SocialLinks';
 
 const Header = () => (
   <Fade>
-    <div className="flex items-center text-gray-100 font-medium tracking-wide top-0 sticky z-10">
+    <div className="z-20 flex items-center text-gray-100 font-medium tracking-wide top-0 sticky">
       <NavLinks />
       <SocialLinks />
     </div>
