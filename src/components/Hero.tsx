@@ -1,7 +1,7 @@
 const Hero = () => (
   <div className="flex justify-around items-center min-h-screen tracking-wide text-gray-100">
     <div className="w-full md:w-2/3">
-      <div className="flex flex-col px-12 md:px-32 2xl:pl-48 py-20 justify-around items-center md:items-start min-h-screen bg-indigo-700 md:rounded-br-2xl">
+      <div className="flex flex-col px-12 md:px-32 2xl:pl-48 py-20 justify-around items-start md:items-start min-h-screen bg-indigo-700 md:rounded-br-2xl">
         <div className="text-6xl font-extrabold tracking-wide leading-relaxed">
           Web Experiences <br /> Built In <br /> Delightful{' '}
           <br className="hidden lg:inline xl:hidden" /> Ways

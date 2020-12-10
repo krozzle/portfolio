@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 const About = () => (
   <Fade>
     <div id="about" className="bg-gray-100 text-gray-900 ">
-      <div className="xl:w-2/3 flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-center lg:px-32 2xl:px-48 py-24 lg:pt-48 tracking-wide leading-relaxed text-center lg:text-right">
+      <div className="xl:w-2/3 flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-center px-12 lg:px-32 2xl:px-48 py-24 lg:pt-48 tracking-wide leading-relaxed text-left lg:text-right">
         <div className="w-96 lg:w-1/2 py-24 lg:py-0">
           <img
             src="/kriz-cv.jpg"
@@ -11,7 +11,7 @@ const About = () => (
             className="rounded-full lg:w-96"
           />
         </div>
-        <div className="lg:w-1/2 flex-col justify-center items-center lg:items-start px-12 lg:px-0">
+        <div className="lg:w-1/2 flex-col justify-center items-center lg:items-start lg:px-0">
           <h1>About Me</h1>
           <p>
             Born and raised in Vienna, Austria, <br />
