@@ -13,7 +13,7 @@ const About = () => (
         </div>
         <div className="2xl:w-2/3 flex-col justify-center items-start lg:px-0">
           <h1>About Me</h1>
-          <p>
+          <p className="pt-6">
             Born and raised in Vienna, Austria, <br />
             of mixed descent, there's no other place <br /> I want to call home.
           </p>
