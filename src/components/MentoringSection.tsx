@@ -20,7 +20,7 @@ const Mentoring = () => (
         >
           <h1>UpLeveled.io</h1>
         </a>
-        <div className="lg:px-0 lg:w-2/3 py-4 text-left text-lg lg:text-xl text-gray-700">
+        <div className="lg:px-0 lg:w-2/3 py-4 text-lg lg:text-xl text-gray-700">
           <p>
             <a
               href="https://www.upleveled.io"

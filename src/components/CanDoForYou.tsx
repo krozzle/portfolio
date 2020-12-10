@@ -1,8 +1,8 @@
 const CanDoForYou = () => (
   <div>
-    <div className="h-full flex flex-col items-center lg:items-start justify-center lg:justify-start text-left">
+    <div className="h-full flex flex-col items-start justify-center text-left">
       <h1 className="text-gray-50">What I Can Do For You</h1>
-      <div className="py-6 text-lg lg:text-xl ">
+      <div className="py-6">
         <p>
           Always on the lookout to aid people <br />
           and companies turning their ideas into reality.

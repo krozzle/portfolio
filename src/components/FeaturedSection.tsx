@@ -4,9 +4,9 @@ const FeaturedSection = () => (
   <Fade>
     <div
       id="work"
-      className="flex flex-col pt-24 px-12 justify-center items-center lg:flex-row lg:items-center lg:justify-between bg-gray-100 text-gray-900 tracking-wide leading-relaxed relative text-left"
+      className="flex flex-col pt-24 px-12 lg:pl-32 2xl:pl-48  justify-center items-center lg:flex-row lg:items-center lg:justify-between bg-gray-100 text-gray-900 tracking-wide leading-relaxed relative text-left"
     >
-      <div className="w-full lg:w-1/2 lg:pl-32 2xl:pl-48 flex flex-col justify-center items-start">
+      <div className="w-full lg:w-1/2flex flex-col justify-center items-start">
         <h2>featured project</h2>
         <a
           href="http://virtualdojovienna.com"
