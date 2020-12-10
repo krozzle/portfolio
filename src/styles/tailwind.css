@@ -7,7 +7,7 @@
     @apply text-4xl 2xl:text-6xl text-gray-900 font-bold;
   }
   h2 {
-    @apply text-2xl 2xl:text-3xl text-indigo-700;
+    @apply text-2xl 2xl:text-4xl text-indigo-700;
   }
   h3 {
     @apply text-xl font-semibold text-indigo-700;
@@ -16,6 +16,6 @@
     @apply hover:text-vdvPink transition-colors duration-300;
   }
   p {
-    @apply text-lg 2xl:text-xl;
+    @apply text-lg 2xl:text-2xl;
   }
 }
