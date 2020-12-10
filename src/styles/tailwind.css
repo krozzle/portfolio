@@ -2,14 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities {
-  .scroll-snap-none {
-    scroll-snap-type: none;
+@layer base {
+  h1 {
+    @apply text-4xl 2xl:text-6xl text-gray-900 font-bold;
   }
-  .scroll-snap-x {
-    scroll-snap-type: x;
+  h2 {
+    @apply text-2xl 2xl:text-4xl text-indigo-700;
   }
-  .scroll-snap-y {
-    scroll-snap-type: y;
+  h3 {
+    @apply text-xl font-semibold text-indigo-700;
+  }
+  a {
+    @apply hover:text-vdvPink transition-colors duration-300;
+  }
+  p {
+    @apply text-lg 2xl:text-2xl;
   }
 }
