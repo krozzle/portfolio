@@ -23,7 +23,7 @@ const Mentoring = () => (
         <div className="lg:px-0 lg:w-2/3 py-4 text-lg lg:text-xl text-gray-700">
           <p>
             <a
-              href="https://www.upleveled.io"
+              href="https://upleveled.io"
               className="hover:text-vdvPink transition-colors duration-300"
             >
               UpLeveled.io{' '}

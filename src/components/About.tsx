@@ -22,7 +22,7 @@ const About = () => (
             Following up a decade worth of nursing, <br />I kicked things off
             with a coding bootcamp <br />
             <a
-              href="upleveled.io"
+              href="https://upleveled.io"
               className="hover:text-vdvPink transition-colors duration-300"
             >
               @UpLeveled
