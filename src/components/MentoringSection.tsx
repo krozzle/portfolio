@@ -18,7 +18,7 @@ const Mentoring = () => (
           href="https://www.upleveled.io"
           className="hover:text-vdvPink transition-colors duration-300"
         >
-          <h1>UpLeveled.io</h1>
+          <h1>UpLeveled</h1>
         </a>
         <div className="lg:px-0 lg:w-2/3 py-4 text-lg lg:text-xl text-gray-700">
           <p>

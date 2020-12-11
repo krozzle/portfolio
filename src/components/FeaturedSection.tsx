@@ -12,7 +12,7 @@ const FeaturedSection = () => (
           href="http://virtualdojovienna.com"
           className="hover:text-vdvPink transition-colors duration-300"
         >
-          <h1>VirtualDojoVienna.com</h1>
+          <h1>VirtualDojoVienna</h1>
         </a>
         <div className="lg:px-0 lg:w-2/3 py-6 text-gray-700">
           <p>
