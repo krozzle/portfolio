@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <Fade>
-      <div className="z-20 flex justify-around lg:justify-start lg:px-32 2xl:px-48 items-center py-4 bg-gray-300 text-md text-lg text-gray-900 bottom-0 ">
+      <div className="z-20 flex justify-around lg:justify-start lg:px-32 2xl:px-48 items-center py-4 bg-gray-300 text-md text-lg text-gray-900 bottom-0 font-poppins">
         <div className="flex lg:hidden space-x-4">
           <a href="https://github.com/krozzle">
             <img src="/github.svg" />
