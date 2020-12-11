@@ -14,7 +14,7 @@ const FeaturedSection = () => (
         >
           <h1>VirtualDojoVienna.com</h1>
         </a>
-        <div className="lg:px-0 lg:w-2/3 py-4 text-gray-700">
+        <div className="lg:px-0 lg:w-2/3 py-6 text-gray-700">
           <p>
             Virtual Dojo Vienna is a non-profit organization dedicated to
             providing a home for fighting game enthusiasts in Vienna, Austria.
