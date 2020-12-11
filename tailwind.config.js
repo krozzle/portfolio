@@ -29,6 +29,7 @@ module.exports = {
         playfair: ['Playfair Display'],
         nunito: ['Nunito'],
         poppins: ['Poppins'],
+        overpass: ['Overpass'],
       },
       minHeight: {
         0: '0%',

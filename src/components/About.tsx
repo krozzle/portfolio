@@ -3,8 +3,8 @@ import Fade from 'react-reveal/Fade';
 const About = () => (
   <Fade>
     <div id="about" className="bg-gray-100 text-gray-900 ">
-      <div className="2xl:w-2/3 flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-start px-12 lg:px-32 2xl:px-48 py-24 lg:pt-48 tracking-wide leading-relaxed text-left lg:text-right">
-        <div className=" lg:w-1/3 py-24 lg:py-0">
+      <div className="2xl:w-2/3 flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-start px-12 lg:px-32 2xl:px-48 py-24 lg:pt-48 tracking-wide leading-relaxed text-left lg:text-right space-x-12">
+        <div className="w-96 2xl:w-1/3 py-24 lg:py-0">
           <img
             src="/kriz-cv.jpg"
             alt="chris posing for a profile picture"
@@ -16,13 +16,13 @@ const About = () => (
           <p className="pt-6">
             Born and raised in Vienna, Austria, <br />
             of mixed descent, there's no other place{' '}
-            <br className="hidden lg:inline" /> I want to call home.
+            <br className="hidden 2xl:inline" /> I want to call home.
           </p>
           <p>
             Following up a decade worth of nursing, <br />I kicked things off
             with a coding bootcamp <br />
             <a
-              href="https://upleveled.io"
+              href="upleveled.io"
               className="hover:text-vdvPink transition-colors duration-300"
             >
               @UpLeveled
