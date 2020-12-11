@@ -1,5 +1,3 @@
-#Design Update
-
 ## My Personal Website
 
 ### Tehnologies used:

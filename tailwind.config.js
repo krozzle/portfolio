@@ -25,6 +25,11 @@ module.exports = {
       outline: {
         vdvPink: '0.5px solid #fa0041',
       },
+      fontFamily: {
+        playfair: ['Playfair Display'],
+        nunito: ['Nunito'],
+        poppins: ['Poppins'],
+      },
       minHeight: {
         0: '0%',
         '1/4': '25%',

@@ -84,13 +84,9 @@ const Skills = () => (
           className="z-10 relative py-12 px-24 my-24 lg:mx-12 lg:-mb-24 bg-gray-100 rounded-2xl h-96 flex flex-col justify-center lg:justify-between items-center"
         >
           <img src={skill.img} alt={skill.alt} className="w-40 h-40 mb-4" />
-          <h2 className="text-xl text-indigo-700">{skill.title}</h2>
+          <h3>{skill.title}</h3>
           {skill.tech.map((technology, j) => (
-            <a
-              key={j}
-              href={technology.url}
-              className="hover:text-vdvPink transition-colors duration-300"
-            >
+            <a key={j} href={technology.url}>
               <p>{technology.name}</p>
             </a>
           ))}
