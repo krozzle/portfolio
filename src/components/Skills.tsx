@@ -81,7 +81,7 @@ const Skills = () => (
       <Fade bottom>
         <div
           key={skill.title}
-          className="z-10 relative py-12 px-24 my-24 lg:mx-12 lg:-mb-24 bg-gray-100 rounded-2xl h-96 flex flex-col justify-center lg:justify-between items-center"
+          className="z-10 relative py-12 px-16 my-24 lg:mx-12 lg:-mb-24 bg-gray-100 rounded-2xl h-96 flex flex-col justify-center lg:justify-between items-center"
         >
           <img src={skill.img} alt={skill.alt} className="w-40 h-40 mb-4" />
           <h3>{skill.title}</h3>
