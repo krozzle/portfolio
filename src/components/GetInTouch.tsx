@@ -18,7 +18,7 @@ const GetInTouch = () => (
             href="mailto:christopher.wattaul@gmail.com"
             className="outline-none"
           >
-            <button className="focus:outline-none focus:ring-2 focus:ring-vdvPink px-8 py-4 my-8 rounded-full border-2 bg-vdvPink hover:bg-gray-200 hover:border-vdvPink hover:text-vdvPink duration-300 hover:shadow-xl border-gray-200 text-2xl lg:text-3xl">
+            <button className="focus:outline-none focus:ring-2 focus:ring-vdvPink px-8 py-4 my-8 rounded-full border-2 bg-vdvPink hover:bg-gray-200 hover:border-vdvPink hover:text-vdvPink duration-300 hover:shadow-xl border-gray-200 text-2xl lg:text-3xl font-poppins">
               Contact Me
             </button>
           </a>
