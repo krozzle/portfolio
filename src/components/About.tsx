@@ -16,7 +16,7 @@ const About = () => (
           <p className="pt-6">
             Born and raised in Vienna, Austria, <br />
             of mixed descent, there's no other place{' '}
-            <br className="hidden 2xl:inline" /> I want to call home.
+            <br className="hidden xl:inline" /> I want to call home.
           </p>
           <p>
             Following up a decade worth of nursing, <br />I kicked things off
