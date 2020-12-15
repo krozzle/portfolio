@@ -2,7 +2,7 @@ const CanDoForYou = () => (
   <div>
     <div className="h-full flex flex-col items-start justify-center text-left">
       <h1 className="text-gray-50">What I Can Do For You</h1>
-      <div className="py-6">
+      <div>
         <p>
           Do you have an idea that you would like <br />
           to have realized? Your team needs help <br />

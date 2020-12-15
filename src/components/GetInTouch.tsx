@@ -8,7 +8,7 @@ const GetInTouch = () => (
         <CanDoForYou />
         <div className="h-full flex-col justify-center lg:justify-start items-start lg:text-right">
           <h1 className="text-gray-50">Get In Touch</h1>
-          <p className="py-6 lg:px-0 text-gray-200">
+          <p className="lg:px-0 text-gray-200">
             If you have an <br className="xl:hidden" /> opportunity or
             introduction <br />
             that you are passionate about <br />
