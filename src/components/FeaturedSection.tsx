@@ -9,7 +9,7 @@ const FeaturedSection = () => (
       <div className="w-full lg:w-2/3 flex flex-col items-start justify-center">
         <h2>featured project</h2>
         <a
-          href="http://virtualdojovienna.com"
+          href="https://virtualdojovienna.com"
           className="hover:text-vdvPink transition-colors duration-300 no-underline"
         >
           <h1>VirtualDojoVienna</h1>
@@ -26,7 +26,7 @@ const FeaturedSection = () => (
           </p>
         </div>
       </div>
-      <div className="flex justify-center items-center lg:w-1/3">
+      <div className="flex justify-center items-center sm:w-2/3 lg:w-1/3">
         <a href="http://virtualdojovienna.com">
           <img
             src="/vdv-screenshot.png"

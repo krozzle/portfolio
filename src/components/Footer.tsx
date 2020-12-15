@@ -5,8 +5,8 @@ const Footer = () => {
 
   return (
     <Fade>
-      <div className="z-20 flex justify-around lg:justify-start lg:px-32 2xl:px-48 items-center py-4 bg-gray-300 text-md text-lg text-gray-900 bottom-0 font-poppins">
-        <div className="flex lg:hidden space-x-4">
+      <div className="z-20 flex justify-between md:justify-start px-12 lg:px-32 2xl:px-48 items-center py-4 bg-gray-300 text-md text-lg text-gray-900 bottom-0 font-poppins">
+        <div className="flex md:hidden space-x-4">
           <a href="https://github.com/krozzle">
             <img src="/github.svg" />
           </a>
@@ -17,10 +17,10 @@ const Footer = () => {
             <img src="/linkedin.svg" />
           </a>
         </div>
-        <div className="flex">
-          <div>Ⓒ {fullYear} •</div>
+        <div className="flex justify-between items-center space-x-2">
+          <p>Ⓒ {fullYear} •</p>
           <a href="/legal-notice" className="no-underline">
-            <span className="px-2">Legal Notice</span>
+            <p>Legal Notice</p>
           </a>
         </div>
       </div>
