@@ -19,10 +19,7 @@ const Footer = () => {
         </div>
         <div className="flex">
           <div>Ⓒ {fullYear} •</div>
-          <a
-            href="/legal-notice"
-            className="hover:text-vdvPink transition-colors duration-300"
-          >
+          <a href="/legal-notice" className="no-underline">
             <span className="px-2">Legal Notice</span>
           </a>
         </div>

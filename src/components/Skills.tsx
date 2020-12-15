@@ -86,7 +86,7 @@ const Skills = () => (
           <img src={skill.img} alt={skill.alt} className="w-40 h-40 mb-4" />
           <h3>{skill.title}</h3>
           {skill.tech.map((technology, j) => (
-            <a key={j} href={technology.url}>
+            <a className="no-underline" key={j} href={technology.url}>
               <p>{technology.name}</p>
             </a>
           ))}

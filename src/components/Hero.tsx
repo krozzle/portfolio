@@ -8,6 +8,7 @@ const Hero = () => (
           <br className="hidden md:inline xl:hidden" /> Ways
         </div>
         <a
+          className="no-underline"
           onClick={(e) => {
             e.preventDefault();
             const element = document.getElementById('work');

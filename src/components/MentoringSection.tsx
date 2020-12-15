@@ -14,10 +14,7 @@ const Mentoring = () => (
       </div>
       <div className="w-full lg:w-1/2 px-12 lg:pl-32 2xl:pl-48 flex flex-col justify-center items-start text-left">
         <h2>mentoring/tutoring</h2>
-        <a
-          href="https://www.upleveled.io"
-          className="hover:text-vdvPink transition-colors duration-300"
-        >
+        <a href="https://www.upleveled.io" className="no-underline">
           <h1>UpLeveled</h1>
         </a>
         <div className="lg:px-0 lg:w-2/3 py-4 text-lg lg:text-xl text-gray-700">

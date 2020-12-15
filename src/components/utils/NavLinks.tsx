@@ -20,12 +20,15 @@ const NavLinks = () => {
   return (
     <div className="w-full md:w-2/3 h-24 flex justify-between items-center px-12 lg:px-32 2xl:px-48 bg-indigo-900 text-xl font-poppins">
       <div className="">
-        <a href="/">Chris Wattaul</a>
+        <a href="/" className="no-underline">
+          Chris Wattaul
+        </a>
       </div>
 
       <ul className="flex justify-around items-center space-x-4 text-lg">
         {navLinks.map((nav) => (
           <a
+            className="no-underline"
             key={nav.id}
             onClick={(e) => {
               e.preventDefault();

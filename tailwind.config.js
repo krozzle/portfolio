@@ -26,7 +26,6 @@ module.exports = {
         vdvPink: '0.5px solid #fa0041',
       },
       fontFamily: {
-        playfair: ['Playfair Display'],
         nunito: ['Nunito'],
         poppins: ['Poppins'],
         overpass: ['Overpass'],

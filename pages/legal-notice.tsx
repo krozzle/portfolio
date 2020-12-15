@@ -2,18 +2,18 @@ import Page from '../src/components/Page';
 
 const LegalNotice = () => (
   <Page>
-    <div className="flex flex-col justify-center items-center min-h-screen bg-gray-100 mx-auto py-12">
-      <div className="bg-gray-300 max-w-sm rounded-lg shadow-xl bg-opacity-25">
-        <div className="flex my-8 pb-12 px-6 text-gray-900 leading-relaxed">
-          <div className="flex flex-col">
-            <div className="w-full text-2xl">Krozzler e.U.</div>
-            <div>Software Development</div>
+    <div className="flex flex-col justify-center items-start min-h-screen bg-gray-100 mx-auto py-12">
+      <div className="bg-gray-300 px-12 lg:px-32 2xl:px-48 w-full md:w-2/3 rounded-lg shadow-xl bg-opacity-25">
+        <div className="flex my-8 pb-12 text-gray-900 leading-relaxed">
+          <div className="flex flex-col justify-center items-start">
+            <h1 className="w-full text-2xl">Krozzler e.U.</h1>
+            <h2 className="text-gray-900">Software Development</h2>
             <br />
-            <div>Christopher Wattaul</div>
-            <div>Schickgasse 32/3/305</div>
-            <div>1220 Vienna, Austria</div>
+            <p>Christopher Wattaul</p>
+            <p>Schickgasse 32/3/305</p>
+            <p>1220 Vienna, Austria</p>
             <br />
-            <div>
+            <p>
               Email:{' '}
               <a
                 href="mailto: christopher.wattaul@gmail.com"
@@ -21,20 +21,20 @@ const LegalNotice = () => (
               >
                 christopher.wattaul@gmail.com
               </a>
-            </div>
+            </p>
             <br />
-            <div>FN: 538479g</div>
-            <div>UID: ATU75849628</div>
-            <div>Handelsgericht Wien</div>
-            <div>
+            <p>FN: 538479g</p>
+            <p>UID: ATU75849628</p>
+            <p>Handelsgericht Wien</p>
+            <p>
               <a
                 href="https://ris.bka.gv.at/"
                 className="hover:text-vdvPink transition-colors duration-300"
               >
                 Gewerbeordnung
               </a>
-            </div>
-            <div>
+            </p>
+            <p>
               Member of{' '}
               <a
                 href="https://wko.at/"
@@ -42,12 +42,13 @@ const LegalNotice = () => (
               >
                 WKO
               </a>
-            </div>
+            </p>
             <br />
-            <div>
-              Complaints can be submitted to the email above or directly to the
-              online dispute resolution platform of the
-              <br />
+            <p>
+              Complaints can be submitted to the email{' '}
+              <br className="hidden sm:inline" /> above or directly to the
+              online dispute <br /> resolution platform of the {''}
+              <br className="xl:hidden" />
               <a
                 href="http://ec.europa.eu/odr"
                 className="hover:text-vdvPink transition-colors duration-300"
@@ -55,19 +56,9 @@ const LegalNotice = () => (
                 European Commission
               </a>
               .
-            </div>
+            </p>
           </div>
         </div>
-      </div>
-      <div className="w-56 md:w-64 bg-gray-100 shadow-xl -mt-16 rounded-xl overflow-hidden">
-        <div className="py-2 text-lg text-center font-bold uppercase tracking-wide text-gray-700">
-          Legal Notice
-        </div>
-        {/* <div className="flex items-center justify-center py-2 px-3 bg-gray-300">
-        <h1 className="text-gray-700 font-bold text-center">
-          Thank You For Your Time
-        </h1>
-      </div> */}
       </div>
     </div>
   </Page>
