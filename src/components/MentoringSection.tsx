@@ -2,8 +2,8 @@ import Fade from 'react-reveal/Fade';
 
 const Mentoring = () => (
   <Fade>
-    <div className="flex flex-col py-24 justify-center items-center lg:flex-row lg:items-center lg:justify-between bg-gray-100 text-gray-900 tracking-wide leading-relaxed relative text-left">
-      <div className="hidden lg:w-1/2 lg:flex justify-center items-center lg:pl-32 2xl:pl-48">
+    <div className="flex flex-col py-24 px-12 lg:px-32 2xl:px-48 justify-center items-center lg:flex-row lg:items-center lg:justify-between bg-gray-100 text-gray-900 relative text-left">
+      <div className="hidden lg:w-1/3 lg:flex lg:justify-start items-center">
         <a href="http://upleveled.io">
           <img
             src="/kriz-upleveled.jpg"
@@ -12,12 +12,12 @@ const Mentoring = () => (
           />
         </a>
       </div>
-      <div className="w-full lg:w-1/2 px-12 lg:pl-32 2xl:pl-48 flex flex-col justify-center items-start text-left">
+      <div className="w-full lg:w-2/3 flex flex-col justify-center items-start lg:items-end text-left lg:text-right">
         <h2>mentoring/tutoring</h2>
-        <a href="https://www.upleveled.io" className="no-underline">
+        <a href="https://upleveled.io" className="no-underline">
           <h1>UpLeveled</h1>
         </a>
-        <div className="lg:px-0 lg:w-2/3 py-4 text-lg lg:text-xl text-gray-700">
+        <div className="lg:px-0 sm:w-2/3 text-gray-700">
           <p>
             <a
               href="https://upleveled.io"
@@ -45,14 +45,14 @@ const Mentoring = () => (
             </a>
             ,{' '}
             <a
-              href="https://www.w3.org/"
+              href="https://w3.org/"
               className="hover:text-vdvPink transition-colors duration-300"
             >
               HTML
             </a>{' '}
             and{' '}
             <a
-              href="https://www.w3.org/TR/CSS/#css"
+              href="https://w3.org/TR/CSS/#css"
               className="hover:text-vdvPink transition-colors duration-300"
             >
               CSS

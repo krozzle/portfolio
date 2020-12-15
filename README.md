@@ -3,9 +3,9 @@
 ### Tehnologies used:
 
 - [Next.js](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [TypeScript](https://typescriptlang.org/)
 - [GraphQL](https://graphql.org/)
-- [Apollo](https://www.apollographql.com/)
+- [Apollo](https://apollographql.com/)
 - [tailwindcss](https://tailwindcss.com/)
 
 While following this example:

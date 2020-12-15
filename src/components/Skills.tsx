@@ -2,13 +2,13 @@ import Fade from 'react-reveal/Fade';
 
 const skills = [
   {
-    title: 'UI/UX Design',
+    title: 'UI/UX',
     img: '/ui-ux.svg',
     alt: 'illustration of a computer screen showing an html tag',
     tech: [
       {
         name: 'CSS',
-        url: 'https://www.w3.org/TR/CSS/#css',
+        url: 'https://w3.org/TR/CSS/#css',
       },
       {
         name: 'HTML',
@@ -16,11 +16,11 @@ const skills = [
       },
       {
         name: 'Adobe XD',
-        url: 'https://www.adobe.com/products/xd.html',
+        url: 'https://adobe.com/products/xd.html',
       },
       {
         name: 'Figma',
-        url: 'https://www.figma.com',
+        url: 'https://figma.com',
       },
     ],
   },
@@ -31,19 +31,19 @@ const skills = [
     tech: [
       {
         name: 'React',
-        url: 'https://www.reactjs.org',
+        url: 'https://reactjs.org',
       },
       {
         name: 'Next.js',
-        url: 'https://www.nextjs.org',
+        url: 'https://nextjs.org',
       },
       {
         name: 'GraphQL',
-        url: 'https://www.graphql.org',
+        url: 'https://graphql.org',
       },
       {
         name: 'TypeScript',
-        url: 'https://www.typescriptlang.org',
+        url: 'https://typescriptlang.org',
       },
     ],
   },
@@ -54,19 +54,19 @@ const skills = [
     tech: [
       {
         name: 'Node.js',
-        url: 'https://www.nodejs.org',
+        url: 'https://nodejs.org',
       },
       {
         name: 'PostgreSQL',
-        url: 'https://www.postgresql.org',
+        url: 'https://postgresql.org',
       },
       {
         name: 'TypeORM',
-        url: 'https://www.typeorm.io',
+        url: 'https://typeorm.io',
       },
       {
         name: 'Apollo',
-        url: 'https://www.apollographql.com/',
+        url: 'https://apollographql.com/',
       },
     ],
   },
@@ -81,9 +81,13 @@ const Skills = () => (
       <Fade bottom>
         <div
           key={skill.title}
-          className="z-10 relative py-12 px-16 my-24 lg:mx-12 lg:-mb-24 bg-gray-100 rounded-2xl h-96 flex flex-col justify-center lg:justify-between items-center"
+          className="z-10 relative py-12 px-16 my-24 lg:mx-12 lg:-mb-16 bg-gray-100 rounded-2xl h-96 flex flex-col justify-center lg:justify-between items-center"
         >
-          <img src={skill.img} alt={skill.alt} className="w-40 h-40 mb-4" />
+          <img
+            src={skill.img}
+            alt={skill.alt}
+            className="w-40 h-40 mb-8 lg:mb-12"
+          />
           <h3>{skill.title}</h3>
           {skill.tech.map((technology, j) => (
             <a className="no-underline" key={j} href={technology.url}>

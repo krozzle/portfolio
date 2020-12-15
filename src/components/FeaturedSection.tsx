@@ -4,17 +4,17 @@ const FeaturedSection = () => (
   <Fade>
     <div
       id="work"
-      className="flex flex-col pt-24 px-12 lg:pl-32 2xl:pl-48 justify-center items-center lg:flex-row lg:justify-between bg-gray-100 text-gray-900 tracking-wide leading-relaxed relative text-left"
+      className="w-full flex flex-col py-24 px-12 lg:px-32 2xl:px-48 justify-center  lg:flex-row lg:justify-between bg-gray-100 text-gray-900 tracking-wide leading-relaxed text-left overflow-hidden space-y-12 lg:space-y-0"
     >
-      <div className="w-full lg:w-1/2flex flex-col justify-center items-start">
+      <div className="w-full lg:w-2/3 flex flex-col items-start justify-center">
         <h2>featured project</h2>
         <a
-          href="http://virtualdojovienna.com"
+          href="https://virtualdojovienna.com"
           className="hover:text-vdvPink transition-colors duration-300 no-underline"
         >
           <h1>VirtualDojoVienna</h1>
         </a>
-        <div className="lg:px-0 lg:w-2/3 py-6 text-gray-700">
+        <div className="lg:px-0 sm:w-2/3 text-gray-700">
           <p>
             <a href="https://virtualdojovienna.com">Virtual Dojo Vienna</a> is a
             non-profit organization dedicated to providing a home for fighting
@@ -26,12 +26,12 @@ const FeaturedSection = () => (
           </p>
         </div>
       </div>
-      <div className="lg:w-1/2 flex justify-center items-center py-12 lg:pr-32 2xl:pr-48">
+      <div className="flex justify-center items-center sm:w-2/3 lg:w-1/3">
         <a href="http://virtualdojovienna.com">
           <img
             src="/vdv-screenshot.png"
             alt="screenshot of hero section of virtualdojovienna.com"
-            className="rounded-2xl "
+            className="bg-contain bg-center rounded-2xl "
           />
         </a>
       </div>
