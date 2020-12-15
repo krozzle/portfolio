@@ -2,8 +2,8 @@ import Fade from 'react-reveal/Fade';
 
 const Mentoring = () => (
   <Fade>
-    <div className="flex flex-col py-24 px-12 lg:pr-32 2xl:pr-48 justify-center items-center lg:flex-row lg:items-center lg:justify-between bg-gray-100 text-gray-900 relative text-left">
-      <div className="hidden lg:w-1/3 lg:flex justify-center items-center">
+    <div className="flex flex-col py-24 px-12 lg:px-32 2xl:px-48 justify-center items-center lg:flex-row lg:items-center lg:justify-between bg-gray-100 text-gray-900 relative text-left">
+      <div className="hidden lg:w-1/3 lg:flex lg:justify-start items-center">
         <a href="http://upleveled.io">
           <img
             src="/kriz-upleveled.jpg"

@@ -1,14 +1,16 @@
 const CanDoForYou = () => (
   <div>
     <div className="flex flex-col items-start justify-center text-left">
-      <h1 className="text-gray-50">Service</h1>
+      <h1 className="text-gray-50">Services</h1>
       <div className="lg:w-2/3">
         <p>
-          Do you have an idea that <br /> you would like to have realized?
+          Do you have an idea that <br className="lg:hidden" /> you would like
+          to have realized?
         </p>
         <p>
-          Your team needs a pair of hands <br /> to put the finalizing touches
-          on a project before shipment?
+          Your team needs a pair of hands <br className="lg:hidden" /> to put
+          the finalizing touches on a <br className="lg:hidden" /> project
+          before shipment?
         </p>
 
         <p>
@@ -32,9 +34,10 @@ const CanDoForYou = () => (
           >
             skills
           </a>{' '}
-          are helpful <br /> to your team or project, or would <br />
-          like to get support while learning <br /> about web development
-          yourself...
+          are helpful <br className="lg:hidden" /> to your team or project, or
+          would <br className="lg:hidden" />
+          like to get support while learning <br className="lg:hidden" /> about
+          web development yourself...
         </p>
       </div>
     </div>

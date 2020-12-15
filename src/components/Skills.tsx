@@ -2,7 +2,7 @@ import Fade from 'react-reveal/Fade';
 
 const skills = [
   {
-    title: 'UI/UX Design',
+    title: 'UI/UX',
     img: '/ui-ux.svg',
     alt: 'illustration of a computer screen showing an html tag',
     tech: [
@@ -81,9 +81,13 @@ const Skills = () => (
       <Fade bottom>
         <div
           key={skill.title}
-          className="z-10 relative py-12 px-16 my-24 lg:mx-12 lg:-mb-24 bg-gray-100 rounded-2xl h-96 flex flex-col justify-center lg:justify-between items-center"
+          className="z-10 relative py-12 px-16 my-24 lg:mx-12 lg:-mb-16 bg-gray-100 rounded-2xl h-96 flex flex-col justify-center lg:justify-between items-center"
         >
-          <img src={skill.img} alt={skill.alt} className="w-40 h-40 mb-8" />
+          <img
+            src={skill.img}
+            alt={skill.alt}
+            className="w-40 h-40 mb-8 lg:mb-12"
+          />
           <h3>{skill.title}</h3>
           {skill.tech.map((technology, j) => (
             <a className="no-underline" key={j} href={technology.url}>

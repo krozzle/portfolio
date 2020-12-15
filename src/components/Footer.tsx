@@ -18,9 +18,9 @@ const Footer = () => {
           </a>
         </div>
         <div className="flex justify-between items-center space-x-2">
-          <p>Ⓒ {fullYear} •</p>
+          <p className="text-lg">Ⓒ {fullYear} •</p>
           <a href="/legal-notice" className="no-underline">
-            <p>Legal Notice</p>
+            <p className="text-lg">Legal Notice</p>
           </a>
         </div>
       </div>
