@@ -22,11 +22,11 @@ const socialLinks = [
 ];
 
 const SocialLinks = () => (
-  <div className="hidden md:w-1/3 md:h-24 pr-12 lg:pr-32 2xl:pr-48 md:flex justify-end items-center md:bg-gray-100">
+  <div className="hidden md:w-1/3 md:h-24 lg:pr-32 2xl:pr-48 space-x-4 md:flex md:justify-center lg:justify-end items-center md:bg-gray-100">
     {socialLinks.map((social, i) => (
       <Link key={i} href={social.href}>
         <a>
-          <img src={social.img} className="py-4 pl-4 h-16" />
+          <img src={social.img} className="py-4 h-16" />
         </a>
       </Link>
     ))}
