@@ -17,7 +17,7 @@
     @apply text-xl xl:text-2xl font-semibold text-indigo-700 font-nunito leading-relaxed tracking-wide;
   }
   a {
-    @apply hover:text-vdvPink underline transition-colors duration-300 leading-relaxed tracking-wide;
+    @apply hover:text-vdvPink transition-colors duration-300 font-medium leading-relaxed tracking-wide;
   }
   p {
     @apply text-lg xl:text-2xl font-poppins leading-relaxed tracking-wide;
