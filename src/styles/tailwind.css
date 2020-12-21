@@ -8,18 +8,18 @@
 
 @layer base {
   h1 {
-    @apply text-4xl xl:text-6xl mb-4 text-gray-900 font-bold font-overpass leading-relaxed tracking-tight;
+    @apply text-4xl xl:text-6xl mb-2 lg:mb-4 text-gray-900 font-bold font-overpass leading-snug tracking-tight xl:tracking-normal;
   }
   h2 {
-    @apply text-2xl xl:text-4xl mb-2 text-indigo-700 font-nunito leading-relaxed tracking-wide;
+    @apply text-2xl xl:text-4xl mb-1 lg:mb-2 text-indigo-700 font-nunito leading-snug tracking-wide;
   }
   h3 {
-    @apply text-xl xl:text-2xl font-semibold text-indigo-700 font-nunito leading-relaxed tracking-wide;
+    @apply text-xl xl:text-2xl font-semibold text-indigo-700 font-nunito leading-normal tracking-wide;
   }
   a {
     @apply hover:text-vdvPink transition-colors duration-300 font-medium leading-relaxed tracking-wide;
   }
   p {
-    @apply text-lg xl:text-2xl font-poppins leading-relaxed tracking-wide;
+    @apply text-lg xl:text-2xl font-poppins leading-relaxed xl:leading-normal tracking-widest lg:tracking-wide;
   }
 }

@@ -33,7 +33,7 @@ const NavLinks = () => {
             onClick={(e) => {
               e.preventDefault();
               const element = document.getElementById(nav.id);
-              console.log(element.offsetTop - 96);
+              // console.log(element.offsetTop - 96);
 
               if (typeof window !== 'undefined') {
                 window.scrollTo({

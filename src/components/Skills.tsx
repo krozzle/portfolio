@@ -75,7 +75,7 @@ const skills = [
 const Skills = () => (
   <div
     id="skills"
-    className="pt-12 bg-gray-300 text-gray-700 tracking-wide leading-relaxed flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-end"
+    className="py-24 lg:pt-12 lg:pb-0 bg-gray-300 text-gray-700 tracking-wide flex flex-col justify-center items-center lg:flex-row lg:justify-center lg:items-end"
   >
     {skills.map((skill) => (
       <Fade bottom>
